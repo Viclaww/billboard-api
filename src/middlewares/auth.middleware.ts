@@ -17,18 +17,27 @@ export const userAuth = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    let bearerToken = req.header('Authorization');
-    if (!bearerToken)
+    let bearerToken = req.header('Authorization').split(' ')[1].trim();
+    if (!bearerToken) {
       throw {
         code: HttpStatus.BAD_REQUEST,
-        message: 'Authorization token is required'
+        message: 'Authorization is required'
       };
-    bearerToken = bearerToken.split(' ')[1];
-
-    const { user }: any = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
+    } else {
+      await jwt.verify(
+        bearerToken,
+        process.env.JWT_SECRET,
+        (error, decodedToken) => {
+          if (error) {
+            return res.status(HttpStatus.UNAUTHORIZED).json({
+              message: 'Not authorized or wrong token'
+            });
+          } else {
+            next();
+          }
+        }
+      );
+    }
   } catch (error) {
     next(error);
   }

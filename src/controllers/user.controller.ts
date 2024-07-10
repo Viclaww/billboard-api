@@ -1,11 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
 import userService from '../services/user.service';
-
-import { Request, Response, NextFunction } from 'express';
+import { transporter } from '../config/nodemailer';
+import { Request, Response, NextFunction, response } from 'express';
+import { IUser } from '../interfaces/user.interface';
+import { generateOTP } from '../utils/user.util';
+import { Error } from 'mongoose';
 
 class UserController {
   public UserService = new userService();
+
   /**
    * Controller to get all users available
    * @param  {object} Request - request object
@@ -64,12 +68,84 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.newUser(req.body);
-      res.status(HttpStatus.CREATED).json({
-        code: HttpStatus.CREATED,
-        data: data,
-        message: 'User created successfully'
-      });
+      let userExists = await this.UserService.getUserByEmail(req.body.email);
+      if (!userExists) {
+        const encrytedbody = await this.UserService.hashPassword(req.body);
+        const user = await this.UserService.newUser(encrytedbody);
+        const token = await this.UserService.signToken(user);
+
+        return res.status(HttpStatus.CREATED).json({
+          data: {
+            id: user._id,
+            email: user.email,
+            'display-name': user.displayName,
+            'full-name': user.fullName,
+            'phone-number': user.phone,
+            'state-of-residence': user.SOR,
+            field: user.field
+          },
+          token: token,
+          status: HttpStatus.CREATED,
+          message: 'User created successfully'
+        });
+      } else {
+        return res.status(HttpStatus.CONFLICT).json({
+          code: HttpStatus.CONFLICT,
+          message: 'User already exists'
+        });
+      }
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  /**
+   * Controller to Login a  user
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+
+  public loginUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      let user = await this.UserService.getUserByEmail(req.body.email);
+      if (!user) {
+        return res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.NOT_FOUND,
+          message: 'User Does not exists. Create account'
+        });
+      } else {
+        let token = await this.UserService.signToken(user);
+        let correct = await this.UserService.comparePassword(
+          user.password,
+          req.body.password
+        );
+        if (correct) {
+          return res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: {
+              id: user._id,
+              email: user.email,
+              'display-name': user.displayName,
+              'full-name': user.fullName,
+              'phone-number': user.phone,
+              'state-of-residence': user.SOR,
+              field: user.field
+            },
+            token: token,
+            message: 'User logged in successfully'
+          });
+        } else {
+          return res.status(HttpStatus.UNAUTHORIZED).json({
+            code: HttpStatus.UNAUTHORIZED,
+            message: 'Incorrect password'
+          });
+        }
+      }
     } catch (error) {
       next(error);
     }
@@ -81,6 +157,7 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
+
   public updateUser = async (
     req: Request,
     res: Response,
@@ -88,11 +165,61 @@ class UserController {
   ): Promise<any> => {
     try {
       const data = await this.UserService.updateUser(req.params._id, req.body);
+
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
-        data: data,
+        data: {
+          id: data._id,
+          email: data.email,
+          'display-name': data.displayName,
+          'State of residence': data.SOR,
+          'full-name': data.fullName,
+          'phone-number': data.phone,
+          field: data.field
+        },
         message: 'User updated successfully'
       });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public sendOTPEmail = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { email } = req.body;
+      const user = await this.UserService.getUserByEmail(email);
+      if (!user) {
+        return res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.NOT_FOUND,
+          message: 'User does Not Exist or No matching accout'
+        });
+      } else {
+        const otp = generateOTP();
+        user.OTP = otp;
+        await this.UserService.updateUser(user._id, user);
+
+        await transporter.sendMail(
+          this.UserService.prepareOtpMailOptions(email, otp),
+          function (error, info) {
+            if (error) {
+              console.log('Error', error);
+
+              next(error);
+            } else {
+              console.log('Email sent:' + info.response);
+
+              return res.status(HttpStatus.ACCEPTED).json({
+                code: HttpStatus.ACCEPTED,
+                message: 'Email successfully sent'
+              });
+            }
+          }
+        );
+      }
     } catch (error) {
       next(error);
     }

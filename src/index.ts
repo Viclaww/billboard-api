@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 dotenv.config();
-
+import { transporter } from './config/nodemailer';
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';

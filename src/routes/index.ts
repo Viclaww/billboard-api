@@ -12,7 +12,7 @@ const routes = (): IRouter => {
   router.get('/', (req, res) => {
     res.json('Welcome');
   });
-  router.use('/users', new userRoute().getRoutes());
+  router.use('/auth', new userRoute().getRoutes());
 
   return router;
 };

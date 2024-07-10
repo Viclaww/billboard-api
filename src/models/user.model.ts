@@ -1,5 +1,6 @@
 import { Schema, model } from 'mongoose';
 import { IUser } from '../interfaces/user.interface';
+import { string } from '@hapi/joi';
 
 const userSchema = new Schema(
   {
@@ -7,15 +8,29 @@ const userSchema = new Schema(
       type: String,
       required: true
     },
-    username: {
+    displayName: {
       type: String
     },
-    firstName: {
+    fullName: {
       type: String
     },
-    lastName: {
+    phone: {
       type: String
     },
+    SOR: {
+      // state of residence
+      type: String
+    },
+    field: {
+      type: String,
+      enum: [
+        'Billboard Owner',
+        'Advertising Agent',
+        'State Agent',
+        'Business Owner'
+      ]
+    },
+    OTP: String,
     password: {
       type: String,
       required: true

@@ -1,5 +1,10 @@
 import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
+import {
+  comparePasswordUtil,
+  hashPassword,
+  signToken
+} from '../utils/user.util';
 
 class UserService {
   //get all users
@@ -15,7 +20,10 @@ class UserService {
   };
 
   //update a user
-  public updateUser = async (_id: string, body: IUser): Promise<IUser> => {
+  public updateUser = async (
+    _id: string | number,
+    body: IUser
+  ): Promise<IUser> => {
     const data = await User.findByIdAndUpdate(
       {
         _id
@@ -38,6 +46,33 @@ class UserService {
   public getUser = async (_id: string): Promise<IUser> => {
     const data = await User.findById(_id);
     return data;
+  };
+  public getUserByEmail = async (email: string): Promise<IUser> => {
+    const user = await User.findOne({ email });
+    return user;
+  };
+
+  public prepareOtpMailOptions = (email: string, otp: string) => {
+    const mailOptions = {
+      from: '"Lawrence from billboard" billboard@gmail.com',
+      to: `${email}`,
+      subject: 'OTP for password reset',
+      html: `<p>Your OTP for password reset is <strong>${otp}</strong></p>`
+    };
+    return mailOptions;
+  };
+
+  public hashPassword = async (body: IUser): Promise<IUser> => {
+    let data = await hashPassword(body); // hashes the password of the body
+    return data;
+  };
+  public comparePassword = async (pass1, pass2): Promise<boolean> => {
+    const match = await comparePasswordUtil(pass1, pass2);
+    return match;
+  };
+  public signToken = async (body: IUser): Promise<string> => {
+    let token = await signToken(body);
+    return token;
   };
 }
 

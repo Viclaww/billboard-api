@@ -1,0 +1,142 @@
+info: ::1 - - [10/Jul/2024:08:04:26 +0000] "POST //auth/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:05:27 +0000] "POST //auth/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:05:32 +0000] "POST //auth/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:05:54 +0000] "POST //auth/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:06:00 +0000] "POST //auth/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:06:38 +0000] "POST //auth/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:07:06 +0000] "POST //auth/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:08:02 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 91 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:11:55 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:13:27 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:14:39 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:15:19 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 427 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:08:17:02 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 44 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:01:15 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 423 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:02:20 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 425 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:04:50 +0000] "POST /api/v1/auth/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:05:07 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 427 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:05:24 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 43 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:05:39 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 427 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:20:21 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 459 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:25:07 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 403 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:27:46 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 234 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:28:20 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 234 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:28:40 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 234 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:29:13 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 234 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:29:45 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 234 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:29:58 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 568 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:30:18 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 568 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:30:27 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 234 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:31:06 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 234 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:32:00 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 256 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:32:25 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:39:20 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:39:37 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:39:53 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 256 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:42:42 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 590 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:51:02 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 500 105 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:51:31 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 500 105 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:56:41 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 256 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:09:56:51 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:10:03:25 +0000] "PATCH /api/v1/auth/668e43172d46c129882143f4 HTTP/1.1" 202 256 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:23:03 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: No recipients defined
+Error: No recipients defined
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._setEnvelope (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1036:34)
+    at SMTPConnection.send (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1591:9)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {"date":"Wed Jul 10 2024 16:23:05 GMT+0100 (West Africa Standard Time)","error":{"code":"EENVELOPE","command":"API"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":114414.421},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18327258,"external":19322417,"heapTotal":31092736,"heapUsed":28642816,"rss":71135232},"pid":5072,"uid":null,"version":"v18.18.0"},"stack":"Error: No recipients defined\n    at SMTPConnection._formatError (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:798:19)\n    at SMTPConnection._setEnvelope (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1036:34)\n    at SMTPConnection.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:629:14)\n    at sendMessage (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js:228:28)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js:286:25\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1591:9)\n    at SMTPConnection.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:554:26)\n    at SMTPConnection._processResponse (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:982:20)\n    at SMTPConnection._onData (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:763:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:335:12)\n    at readableAddChunk (node:internal/streams/readable:308:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","trace":[{"column":19,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._formatError","line":798,"method":"_formatError","native":false},{"column":34,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._setEnvelope","line":1036,"method":"_setEnvelope","native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection.send","line":629,"method":"send","native":false},{"column":28,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js","function":"sendMessage","line":228,"method":null,"native":false},{"column":25,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js","function":null,"line":286,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._actionAUTHComplete","line":1591,"method":"_actionAUTHComplete","native":false},{"column":26,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":null,"line":554,"method":null,"native":false},{"column":20,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._processResponse","line":982,"method":"_processResponse","native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._onData","line":763,"method":"_onData","native":false},{"column":44,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"TLSSocket.SMTPConnection._onSocketData","line":195,"method":"_onSocketData","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":517,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":335,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":308,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"TLSSocket.Readable.push","line":245,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TLSWrap.onStreamRead","line":190,"method":"onStreamRead","native":false}]}
+info: ::1 - - [10/Jul/2024:15:25:00 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: No recipients defined
+Error: No recipients defined
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._setEnvelope (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1036:34)
+    at SMTPConnection.send (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1591:9)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {"date":"Wed Jul 10 2024 16:25:02 GMT+0100 (West Africa Standard Time)","error":{"code":"EENVELOPE","command":"API"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":114531.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303688,"external":19298847,"heapTotal":63860736,"heapUsed":28166808,"rss":94240768},"pid":9732,"uid":null,"version":"v18.18.0"},"stack":"Error: No recipients defined\n    at SMTPConnection._formatError (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:798:19)\n    at SMTPConnection._setEnvelope (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1036:34)\n    at SMTPConnection.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:629:14)\n    at sendMessage (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js:228:28)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js:286:25\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1591:9)\n    at SMTPConnection.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:554:26)\n    at SMTPConnection._processResponse (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:982:20)\n    at SMTPConnection._onData (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:763:14)\n    at TLSSocket.SMTPConnection._onSocketData (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:517:28)\n    at addChunk (node:internal/streams/readable:335:12)\n    at readableAddChunk (node:internal/streams/readable:308:9)\n    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","trace":[{"column":19,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._formatError","line":798,"method":"_formatError","native":false},{"column":34,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._setEnvelope","line":1036,"method":"_setEnvelope","native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection.send","line":629,"method":"send","native":false},{"column":28,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js","function":"sendMessage","line":228,"method":null,"native":false},{"column":25,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-transport\\index.js","function":null,"line":286,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._actionAUTHComplete","line":1591,"method":"_actionAUTHComplete","native":false},{"column":26,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":null,"line":554,"method":null,"native":false},{"column":20,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._processResponse","line":982,"method":"_processResponse","native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"SMTPConnection._onData","line":763,"method":"_onData","native":false},{"column":44,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js","function":"TLSSocket.SMTPConnection._onSocketData","line":195,"method":"_onSocketData","native":false},{"column":28,"file":"node:events","function":"TLSSocket.emit","line":517,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":335,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":308,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"TLSSocket.Readable.push","line":245,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TLSWrap.onStreamRead","line":190,"method":"onStreamRead","native":false}]}
+info: ::1 - - [10/Jul/2024:15:28:32 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 56 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:29:37 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 56 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:31:34 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 56 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:32:51 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 404 66 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:33:49 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:34:27 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:44:30 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:48:37 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:55:34 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 75 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:15:58:12 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [10/Jul/2024:16:00:22 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+

@@ -1,0 +1,525 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-10T07:51:52.187Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T07:51:55.203Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T07:56:07.590Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T07:56:10.004Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:05:23.216Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:05:25.272Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:05:44.431Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:05:46.442Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:06:35.382Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:06:37.336Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:06:48.651Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:06:50.831Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:7:31
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at hashPassword (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:44)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:50:36)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.hashPassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:47:61)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:70:53)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/auth/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T08:08:02.103Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:10:09.237Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:10:11.471Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:10:13.732Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:10:49.885Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:10:51.661Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:11:22.173Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:11:24.976Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:11:28.909Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:11:32.031Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:11:39.343Z"}
+error: 
+    status - 500 
+    message - TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at Function.from (node:buffer:333:9)
+    at hash (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:105:22) 
+    url - /api/v1/auth/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T08:11:55.264Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:13:23.107Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:13:25.298Z"}
+error: 
+    status - 500 
+    message - TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at Function.from (node:buffer:333:9)
+    at hash (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:105:22) 
+    url - /api/v1/auth/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T08:13:27.787Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:14:37.211Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:14:39.268Z"}
+error: 
+    status - 500 
+    message - TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at Function.from (node:buffer:333:9)
+    at hash (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:105:22) 
+    url - /api/v1/auth/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T08:14:39.456Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:18:26.963Z"}
+error: Could not connect to the database. querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"EREFUSED","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-10T08:18:26.993Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:23:42.110Z"}
+error: Could not connect to the database. querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"EREFUSED","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-10T08:23:42.153Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:28:21.960Z"}
+error: Could not connect to the database. querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"EREFUSED","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-10T08:28:21.979Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:30:08.129Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:30:10.771Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:33:40.557Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:33:43.087Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:33:54.241Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:33:56.369Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:34:07.018Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:34:09.148Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:34:19.211Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:34:21.270Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:42:40.129Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:42:42.267Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:46:43.366Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:46:48.407Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T08:47:42.895Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T08:47:44.994Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:00:28.834Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:00:33.706Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:00:56.321Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:00:59.741Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:02:03.164Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:02:15.590Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:02:58.135Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:03:00.751Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:03:04.710Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:03:06.910Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:03:15.151Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:03:25.463Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:04:00.279Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:04:25.029Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:05:02.513Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:05:04.838Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:09:31.990Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:09:39.588Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:09:45.336Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:09:47.617Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:11:45.680Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:11:49.789Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:12:03.261Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:12:05.262Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:13:25.294Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:13:27.874Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:13:30.066Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:16:44.817Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:17:03.645Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:19:51.847Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:19:54.123Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:20:07.170Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:20:09.061Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:24:58.604Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:25:00.859Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:27:36.948Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:27:38.953Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:31:01.777Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:31:05.024Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:31:49.641Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:31:51.715Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:32:19.030Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:32:21.344Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:38:38.532Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:38:40.683Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:39:12.040Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:39:13.802Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:41:51.652Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:41:53.940Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:48:33.817Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:49:08.108Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:50:38.803Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOneAndUpdate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7) 
+    url - /api/v1/auth/668e43172d46c129882143f4 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2024-07-10T09:51:02.392Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T09:51:26.788Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOneAndUpdate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7) 
+    url - /api/v1/auth/668e43172d46c129882143f4 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2024-07-10T09:51:31.224Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:52:09.554Z"}
+error: Could not connect to the database. querySrv ETIMEOUT _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-10T09:53:25.576Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:53:48.196Z"}
+error: Could not connect to the database. querySrv ETIMEOUT _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-10T09:55:03.816Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:56:03.134Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:56:13.343Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:57:16.372Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:57:18.660Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T09:59:49.356Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T09:59:51.727Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T10:00:06.082Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T10:00:08.244Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T10:01:18.113Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T10:01:20.255Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:21:22.581Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:21:53.092Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:26:58.606Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:27:29.139Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:29:01.723Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:29:32.224Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:30:54.881Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:31:25.390Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:31:49.075Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:32:19.352Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:34:29.322Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:34:46.991Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:35:17.273Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:35:29.540Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:35:59.942Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:36:40.047Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:37:10.511Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:37:53.624Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:38:24.184Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:39:38.520Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:39:51.635Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:40:21.910Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:41:38.377Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:42:09.112Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:44:23.068Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:44:51.892Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:45:25.476Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:45:55.992Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:47:07.364Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:47:38.232Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:50:42.784Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:50:51.434Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:51:03.579Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:51:10.421Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:51:40.625Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:52:42.413Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:52:53.703Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:52:57.449Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:53:27.700Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:55:46.026Z"}
+error: Could not connect to the database. querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ESERVFAIL","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-10T14:55:46.161Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:57:38.128Z"}
+error: Could not connect to the database. querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ESERVFAIL","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-10T14:57:38.209Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:57:42.672Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T14:58:12.918Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T14:59:47.732Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T15:00:18.260Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:01:02.856Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T15:01:33.390Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:05:28.380Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:05:51.285Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T15:06:21.612Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:06:57.307Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:07:50.129Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T15:08:20.695Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:08:56.534Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T15:09:37.066Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:10:35.382Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at Database.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:20:22)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:4:12)\n    at Database.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\config\\database.ts:18:57)\n    at App.initializeDatabase (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:48:13)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:34:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)","timestamp":"2024-07-10T15:11:06.227Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:18:56.235Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:19:07.073Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:19:09.694Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:19:15.931Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:19:37.947Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:19:39.006Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:19:39.879Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:19:46.987Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:21:40.714Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:21:43.112Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:21:57.015Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:22:09.458Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\PC\documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\PC\documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:22:20.698Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:24:52.536Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:24:55.053Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:28:22.136Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:28:25.042Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._setEnvelope (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1036:34)
+    at SMTPConnection.send (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1591:9)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:28:32.128Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:29:25.254Z"}
+error: Could not connect to the database. queryTxt ESERVFAIL cluster0.tgmlkb5.mongodb.net {"code":"ESERVFAIL","hostname":"cluster0.tgmlkb5.mongodb.net","stack":"Error: queryTxt ESERVFAIL cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"queryTxt","timestamp":"2024-07-10T15:29:25.485Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._setEnvelope (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1036:34)
+    at SMTPConnection.send (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1591:9)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:29:37.046Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:30:30.415Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:30:32.915Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:30:42.260Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:30:48.425Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:30:53.897Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:31:03.701Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:31:06.230Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:31:25.815Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:31:28.441Z"}
+error: 
+    status - 500 
+    message - Error: No recipients defined
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._setEnvelope (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1036:34)
+    at SMTPConnection.send (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:629:14)
+    at sendMessage (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1591:9)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:31:34.015Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:33:38.075Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:33:41.614Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:34:17.736Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:34:20.134Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:36:47.936Z"}
+error: Could not connect to the database. queryTxt ESERVFAIL cluster0.tgmlkb5.mongodb.net {"code":"ESERVFAIL","hostname":"cluster0.tgmlkb5.mongodb.net","stack":"Error: queryTxt ESERVFAIL cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"queryTxt","timestamp":"2024-07-10T15:36:48.148Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:41:25.639Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:41:28.113Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:41:36.060Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:41:59.183Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:42:01.162Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:42:12.534Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:42:14.254Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:43:03.940Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:43:09.402Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:44:16.332Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:44:18.420Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:47:44.204Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:47:46.389Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:48:06.154Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:48:07.966Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:48:12.307Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:48:14.268Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:52:39.239Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:52:41.297Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:53:01.606Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:53:11.709Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:55:24.566Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:55:26.787Z"}
+error: 
+    status - 500 
+    message - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1577:34)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-10T15:55:34.653Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:56:17.037Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:56:19.219Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:57:36.262Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:57:46.126Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:57:51.119Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:57:54.249Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T15:57:57.654Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:59:55.479Z"}
+info: Connected to the database. {"timestamp":"2024-07-10T16:00:19.499Z"}
