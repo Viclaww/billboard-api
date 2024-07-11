@@ -575,3 +575,304 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T1
 info: Connected to the database. {"timestamp":"2024-07-10T15:57:57.654Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-10T15:59:55.479Z"}
 info: Connected to the database. {"timestamp":"2024-07-10T16:00:19.499Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:17:19.408Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:17:22.806Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:18:23.623Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:18:26.137Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:19:29.167Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:19:31.381Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:20:18.510Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:20:20.649Z"}
+error: 
+    status - 500 
+    message - Error: Mail command failed: 550 5.7.1 Sending from domain gmail.com is not allowed
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._actionMAIL (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1607:34)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1076:18)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:20:30.043Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:21:14.167Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:21:16.562Z"}
+error: 
+    status - 500 
+    message - Error: Mail command failed: 550 5.7.1 Sending from domain info.com is not allowed
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._actionMAIL (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1607:34)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1076:18)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:21:24.826Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:24:01.040Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:24:03.359Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:24:37.381Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:24:39.205Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:26:45.020Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:26:47.345Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:27:28.095Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:27:30.633Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:29:53.479Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:29:55.916Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:31:35.979Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:31:38.189Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:32:12.725Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:32:14.666Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:32:38.246Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:32:40.450Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:33:21.750Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:33:23.899Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:35:02.187Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:35:04.723Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:35:08.987Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:35:11.116Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:36:18.237Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:36:20.549Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:36:41.688Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:36:43.546Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:37:11.278Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:37:13.776Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:40:10.521Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:40:13.003Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:44:48.281Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:45:00.411Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/forgot-password 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:45:06.290Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/verify-otp 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:47:02.235Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/verify-otp 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:47:05.272Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/verify-otp 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:47:19.964Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:48:03.998Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:48:07.427Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:48:15.047Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:48:17.560Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/verify-otp 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:48:20.525Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:49:14.277Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:49:16.766Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/verify-otp 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:49:19.825Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:49:50.957Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:49:53.141Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/auth/verify-otp 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-11T07:50:26.308Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:57:39.419Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:57:47.187Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T07:58:00.547Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T07:58:02.468Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T08:01:39.865Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T08:01:42.149Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T08:02:39.979Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T08:02:42.392Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T08:02:55.189Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T08:02:57.401Z"}

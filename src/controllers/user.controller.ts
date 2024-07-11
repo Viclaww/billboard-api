@@ -191,7 +191,7 @@ class UserController {
         const otp = generateOTP();
         user.OTP = otp;
         await this.UserService.updateUser(user._id, user);
-
+        await this.UserService.removeOTPAfterTimeout(user._id);
         await transporter.sendMail(
           this.UserService.prepareOtpMailOptions(email, otp),
           function (error, info) {

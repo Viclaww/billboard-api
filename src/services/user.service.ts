@@ -68,6 +68,25 @@ class UserService {
     }
     return false;
   };
+
+  public removeOTPAfterTimeout = async (
+    _id: string | number
+  ): Promise<void> => {
+    setTimeout(async () => {
+      await User.findByIdAndUpdate(
+        {
+          _id
+        },
+        {
+          OTP: null
+        },
+        {
+          new: true
+        }
+      );
+    }, 5 * 60 * 1000); // 5 minutes in milliseconds
+  };
+
   public removeOTP = async (_id: string | number): Promise<IUser> => {
     const data = await User.findByIdAndUpdate(
       {

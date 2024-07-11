@@ -140,3 +140,39 @@ info: ::1 - - [10/Jul/2024:15:58:12 +0000] "POST /api/v1/auth/forgot-password HT
 
 info: ::1 - - [10/Jul/2024:16:00:22 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
 
+info: ::1 - - [11/Jul/2024:07:20:30 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 110 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:21:24 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 500 109 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:24:46 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:44:23 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:44:48 +0000] "GET /api/v1/auth/forgot-password HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:45:00 +0000] "GET /api/v1/auth/forgot-password HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:45:06 +0000] "GET /api/v1/auth/forgot-password HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:47:02 +0000] "GET /api/v1/auth/verify-otp HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:47:05 +0000] "GET /api/v1/auth/verify-otp HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:47:19 +0000] "GET /api/v1/auth/verify-otp HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:48:20 +0000] "GET /api/v1/auth/verify-otp HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:49:19 +0000] "GET /api/v1/auth/verify-otp HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:50:26 +0000] "GET /api/v1/auth/verify-otp HTTP/1.1" 500 88 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:50:53 +0000] "POST /api/v1/auth/verify-otp HTTP/1.1" 202 50 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:58:15 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:59:16 +0000] "POST /api/v1/auth/verify-otp HTTP/1.1" 401 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:07:59:30 +0000] "POST /api/v1/auth/verify-otp HTTP/1.1" 202 50 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [11/Jul/2024:08:03:19 +0000] "POST /api/v1/auth/forgot-password HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
