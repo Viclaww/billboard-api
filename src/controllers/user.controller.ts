@@ -68,11 +68,12 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
+      // check if user already exists
       let userExists = await this.UserService.getUserByEmail(req.body.email);
       if (!userExists) {
-        const encrytedbody = await this.UserService.hashPassword(req.body);
-        const user = await this.UserService.newUser(encrytedbody);
-        const token = await this.UserService.signToken(user);
+        const encrytedbody = await this.UserService.hashPassword(req.body); //hashing the password
+        const user = await this.UserService.newUser(encrytedbody); // creating user
+        const token = await this.UserService.signToken(user); // creating token
 
         return res.status(HttpStatus.CREATED).json({
           data: returnFrontendUserInfo(user),
@@ -81,6 +82,7 @@ class UserController {
           message: 'User created successfully'
         });
       } else {
+        // if user exists
         return res.status(HttpStatus.CONFLICT).json({
           code: HttpStatus.CONFLICT,
           message: 'User already exists'
@@ -104,18 +106,20 @@ class UserController {
     next: NextFunction
   ) => {
     try {
-      let user = await this.UserService.getUserByEmail(req.body.email);
+      let user = await this.UserService.getUserByEmail(req.body.email); // check for user
       if (!user) {
+        // if user doesnt exist
         return res.status(HttpStatus.NOT_FOUND).json({
           code: HttpStatus.NOT_FOUND,
           message: 'User Does not exists. Create account'
         });
       } else {
+        // if user exists
         let token = await this.UserService.signToken(user);
         let correct = await this.UserService.comparePassword(
           user.password,
           req.body.password
-        );
+        ); // check if password is correct
         if (correct) {
           return res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
@@ -149,7 +153,6 @@ class UserController {
   ): Promise<any> => {
     try {
       const data = await this.UserService.updateUser(req.params._id, req.body);
-
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: {
@@ -180,6 +183,7 @@ class UserController {
     next: NextFunction
   ) => {
     try {
+      // sending otp to user email
       const { email } = req.body;
       const user = await this.UserService.getUserByEmail(email);
       if (!user) {
@@ -188,10 +192,12 @@ class UserController {
           message: 'User does Not Exist or No matching accout'
         });
       } else {
-        const otp = generateOTP();
-        user.OTP = otp;
-        await this.UserService.updateUser(user._id, user);
-        await this.UserService.removeOTPAfterTimeout(user._id);
+        const otp = generateOTP(); //generating otp
+
+        user.OTP = otp; // setting the otp to the user
+
+        const updatedUser = await this.UserService.updateUser(user._id, user); // update the user
+        await this.UserService.removeOTPAfterTimeout(updatedUser._id);
         await transporter.sendMail(
           this.UserService.prepareOtpMailOptions(email, otp),
           function (error, info) {
@@ -238,7 +244,7 @@ class UserController {
         });
       } else {
         if (user.OTP === otp) {
-          await this.UserService.removeOTP(user._id);
+          await this.UserService.removeOTP(user._id); // removimg otp afrt verification
           return res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             message: 'OTP verified successfully'
