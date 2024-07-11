@@ -1,12 +1,12 @@
 import nodemailer from 'nodemailer';
 
 export const transporter = nodemailer.createTransport({
-  host: 'smtp.ethereal.email',
+  host: 'live.smtp.mailtrap.io',
   port: 587,
   secure: false, // Use `true` for port 465, `false` for all other ports
   auth: {
-    user: 'cecile.morissette71@ethereal.email',
-    pass: 'Ng9pUDNh84Uy1b7PeE'
+    user: 'api',
+    pass: 'd5da27981147e8265f98d33de8c48acf'
   }
 });
 transporter.verify(function (error, success) {

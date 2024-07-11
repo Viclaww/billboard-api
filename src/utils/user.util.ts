@@ -9,6 +9,19 @@ export const hashPassword = async (body) => {
   return data;
 };
 
+export const returnFrontendUserInfo = (data) => {
+  // returning save data to frontend
+  return {
+    id: data._id,
+    email: data.email,
+    'display-name': data.displayName,
+    'State of residence': data.SOR,
+    'full-name': data.fullName,
+    'phone-number': data.phone,
+    field: data.field
+  };
+};
+
 export const comparePasswordUtil = async (pass1, pass2) => {
   let correct = await verify(pass1, pass2);
   return correct;

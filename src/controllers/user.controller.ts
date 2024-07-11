@@ -4,7 +4,7 @@ import userService from '../services/user.service';
 import { transporter } from '../config/nodemailer';
 import { Request, Response, NextFunction, response } from 'express';
 import { IUser } from '../interfaces/user.interface';
-import { generateOTP } from '../utils/user.util';
+import { generateOTP, returnFrontendUserInfo } from '../utils/user.util';
 import { Error } from 'mongoose';
 
 class UserController {
@@ -75,15 +75,7 @@ class UserController {
         const token = await this.UserService.signToken(user);
 
         return res.status(HttpStatus.CREATED).json({
-          data: {
-            id: user._id,
-            email: user.email,
-            'display-name': user.displayName,
-            'full-name': user.fullName,
-            'phone-number': user.phone,
-            'state-of-residence': user.SOR,
-            field: user.field
-          },
+          data: returnFrontendUserInfo(user),
           token: token,
           status: HttpStatus.CREATED,
           message: 'User created successfully'
@@ -127,15 +119,7 @@ class UserController {
         if (correct) {
           return res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
-            data: {
-              id: user._id,
-              email: user.email,
-              'display-name': user.displayName,
-              'full-name': user.fullName,
-              'phone-number': user.phone,
-              'state-of-residence': user.SOR,
-              field: user.field
-            },
+            data: returnFrontendUserInfo(user),
             token: token,
             message: 'User logged in successfully'
           });
@@ -184,6 +168,12 @@ class UserController {
     }
   };
 
+  /**
+   * Controller to send OTP to user email
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
   public sendOTPEmail = async (
     req: Request,
     res: Response,
@@ -219,6 +209,46 @@ class UserController {
             }
           }
         );
+      }
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  /**
+   * Controller to verify OTP
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+
+  public verifyOTP = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { email, otp } = req.body;
+
+      const user = await this.UserService.getUserByEmail(email);
+      if (!user) {
+        return res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.NOT_FOUND,
+          message: 'User does Not Exist or No matching accout'
+        });
+      } else {
+        if (user.OTP === otp) {
+          await this.UserService.removeOTP(user._id);
+          return res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            message: 'OTP verified successfully'
+          });
+        } else {
+          return res.status(HttpStatus.UNAUTHORIZED).json({
+            code: HttpStatus.UNAUTHORIZED,
+            message: 'OTP verification failed'
+          });
+        }
       }
     } catch (error) {
       next(error);

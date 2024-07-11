@@ -54,12 +54,33 @@ class UserService {
 
   public prepareOtpMailOptions = (email: string, otp: string) => {
     const mailOptions = {
-      from: '"Lawrence from billboard" billboard@gmail.com',
+      from: '"Lawrence from billboard" victor@demomailtrap.com',
       to: `${email}`,
       subject: 'OTP for password reset',
       html: `<p>Your OTP for password reset is <strong>${otp}</strong></p>`
     };
     return mailOptions;
+  };
+
+  public verifyOTP = (otp: string, userOtp: string): boolean => {
+    if (otp === userOtp) {
+      return true;
+    }
+    return false;
+  };
+  public removeOTP = async (_id: string | number): Promise<IUser> => {
+    const data = await User.findByIdAndUpdate(
+      {
+        _id
+      },
+      {
+        OTP: ''
+      },
+      {
+        new: true
+      }
+    );
+    return data;
   };
 
   public hashPassword = async (body: IUser): Promise<IUser> => {
