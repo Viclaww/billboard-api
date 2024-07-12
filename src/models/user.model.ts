@@ -7,6 +7,7 @@ const userSchema = new Schema(
       type: String,
       required: true
     },
+    image: String,
     displayName: {
       type: String
     },

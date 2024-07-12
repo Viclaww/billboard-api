@@ -2,7 +2,8 @@ import { Document } from 'mongoose';
 
 export interface IUser extends Document {
   _id: string | number | undefined;
-  email: string | undefined;
+  image: string | undefined;
+  email: string;
   fullName: string | undefined;
   phone: string | undefined;
   displayName: string | undefined;
