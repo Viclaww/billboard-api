@@ -19,7 +19,9 @@ const billboardSchema = new Schema(
     location: String,
     state: String,
     ownerId: String,
-    available: Boolean
+    available: Boolean,
+    target: String,
+    bookedBy: String
   },
   { timestamps: true }
 );

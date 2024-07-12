@@ -18,10 +18,11 @@ declare global {
 }
 
 // Configure Cloudinary
+
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET
+  cloud_name: `${process.env.CLOUDINARY_NAME}`,
+  api_key: `${process.env.CLOUDINARY_API_KEY}`,
+  api_secret: `${process.env.CLOUDINARY_API_SECRET}`
 });
 
 // Middleware to upload files to Cloudinary
@@ -30,15 +31,19 @@ const uploadToCloudinary = (
   res: Response,
   next: NextFunction
 ) => {
+  console.log(req.file);
+
   upload.single('file')(req, res, (err: any) => {
     if (err) {
       // Handle multer error
       return next(err);
     }
-
     // Upload file to Cloudinary
     const file = req.file;
-    cloudinary.uploader.upload(file.path, (result) => {
+    cloudinary.uploader.upload(file.path, (error, result) => {
+      if (error) {
+        return next(error); // Pass error to the next middleware
+      }
       // Handle Cloudinary response
       req.fileUrl = result.secure_url;
       next();

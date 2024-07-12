@@ -10,9 +10,11 @@ export interface IBillboard extends Document {
     | 'Spectacular Billboard'
     | 'Gantry'
     | 'Unipole';
-  rentPerMonth: Number;
-  location: string;
-  ownerId: string;
+  rentPerMonth: Number | undefined;
+  location: string | undefined;
+  ownerId: string | undefined;
   available: boolean;
-  state: string;
+  state: string | undefined;
+  target: string | undefined;
+  bookedBy: string | undefined | null;
 }

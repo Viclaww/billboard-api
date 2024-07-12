@@ -23,7 +23,7 @@ class UserController {
   ): Promise<any> => {
     try {
       const data = await this.UserService.getAllUsers();
-      res.status(HttpStatus.OK).json({
+      return res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
         message: 'All users fetched successfully'

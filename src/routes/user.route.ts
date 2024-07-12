@@ -6,7 +6,6 @@ import { userAuth } from '../middlewares/auth.middleware';
 class UserRoutes {
   private UserController = new userController();
   private router = express.Router();
-  private UserValidator = new userValidator();
 
   constructor() {
     this.routes();
