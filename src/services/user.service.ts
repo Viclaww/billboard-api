@@ -92,13 +92,31 @@ class UserService {
     return updatedUser;
   };
 
+  // to change resetpassword property
+  public changeResetPasswordProperty = async (
+    _id: string | number,
+    value: boolean
+  ): Promise<IUser> => {
+    const updatedUser = await User.findByIdAndUpdate(
+      {
+        _id
+      },
+      {
+        resetingPassword: value
+      },
+      {
+        new: true
+      }
+    );
+    return updatedUser;
+  };
   // removing the otp after five minutes
   public removeOTPAfterTimeout = async (
     _id: string | number
   ): Promise<void> => {
     setTimeout(async () => {
-      this.removeOTP(_id);
-    }, 5 * 60 * 1000); // 5 minutes in milliseconds
+      this.removeOTP(_id); // resseting otp after it expires
+    }, 10 * 60 * 1000); // 10 minutes in milliseconds
   };
 
   // this removes otp

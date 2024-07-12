@@ -9,6 +9,7 @@ export interface IUser extends Document {
   password: string | Promise<string> | undefined;
   SOR: string | undefined;
   OTP: String | undefined | null;
+  resetingPassword: Boolean;
   field:
     | 'Billboard Owner'
     | 'Advertising Agent'

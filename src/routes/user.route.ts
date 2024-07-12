@@ -28,8 +28,12 @@ class UserRoutes {
     //routes to update a single user
     this.router.put('/:_id', this.UserController.updateUser);
     this.router.patch('/:_id', this.UserController.updateUser);
+
     //send otp to email
     this.router.post('/forgot-password', this.UserController.sendOTPEmail);
+
+    // change-password
+    this.router.post('/change-password', this.UserController.changePaassword);
 
     // verify otp
     this.router.post('/verify-otp', this.UserController.verifyOTP);

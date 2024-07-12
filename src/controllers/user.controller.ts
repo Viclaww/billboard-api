@@ -244,7 +244,12 @@ class UserController {
         });
       } else {
         if (user.OTP === otp) {
-          await this.UserService.removeOTP(user._id); // removimg otp afrt verification
+          await this.UserService.removeOTP(user._id); // removimg otp after verification
+          await this.UserService.changeResetPasswordProperty(user._id, true);
+
+          setTimeout(async () => {
+            await this.UserService.changeResetPasswordProperty(user._id, false);
+          }, 10 * 60 * 1000); // this resets the password property to false after 10 minutes
           return res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             message: 'OTP verified successfully'
@@ -261,6 +266,50 @@ class UserController {
     }
   };
 
+  /**
+   * Controller to change password
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+
+  public changePaassword = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { email, password } = req.body;
+      const user = await this.UserService.getUserByEmail(email);
+
+      if (user) {
+        if (user.resetingPassword) {
+          const updatedUser = await this.UserService.changePassword(
+            user.id,
+            password
+          );
+          await this.UserService.changeResetPasswordProperty(
+            updatedUser._id,
+            false
+          );
+          const token = await this.UserService.signToken(updatedUser);
+          return res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: returnFrontendUserInfo(updatedUser),
+            token,
+            message: 'User logged in successfully'
+          });
+        } else {
+          return res.status(HttpStatus.NOT_ACCEPTABLE).json({
+            code: HttpStatus.NOT_ACCEPTABLE,
+            message: 'You are not allowed to access this Route'
+          });
+        }
+      }
+    } catch (error) {
+      next(error);
+    }
+  };
   /**
    * Controller to delete a single user
    * @param  {object} Request - request object
