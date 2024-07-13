@@ -3,9 +3,8 @@ import HttpStatus from 'http-status-codes';
 import userService from '../services/user.service';
 import { transporter } from '../config/nodemailer';
 import { Request, Response, NextFunction, response } from 'express';
-import { IUser } from '../interfaces/user.interface';
+import jwt from 'jsonwebtoken';
 import { generateOTP, returnFrontendUserInfo } from '../utils/user.util';
-import { Error } from 'mongoose';
 
 class UserController {
   public UserService = new userService();
@@ -20,7 +19,7 @@ class UserController {
     req: Request,
     res: Response,
     next: NextFunction
-  ): Promise<any> => {
+  ): Promise<Response> => {
     try {
       const data = await this.UserService.getAllUsers();
       return res.status(HttpStatus.OK).json({
@@ -39,14 +38,14 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-  public getUser = async (
+  public getUserById = async (
     req: Request,
     res: Response,
     next: NextFunction
-  ): Promise<any> => {
+  ): Promise<Response> => {
     try {
       const data = await this.UserService.getUser(req.params._id);
-      res.status(HttpStatus.OK).json({
+      return res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
         message: 'User fetched successfully'
@@ -62,11 +61,47 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
+
+  public getUserProfile = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<Response> => {
+    try {
+      let bearerToken = req.header('Authorization').split(' ')[1].trim();
+      if (bearerToken) {
+        const decodedToken = jwt.decode(bearerToken) as { email: string }; // decoding the bearer token
+
+        // getting the user  threugh decodedtoken
+        const user = await this.UserService.getUserByEmail(decodedToken.email);
+
+        return res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: returnFrontendUserInfo(user),
+          message: 'User profile fetched successfully!'
+        });
+      } else {
+        return res.status(HttpStatus.NOT_ACCEPTABLE).json({
+          code: HttpStatus.NOT_ACCEPTABLE,
+          message: 'Not Authorized!'
+        });
+      }
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  /**
+   * Controller to create new user
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
   public newUser = async (
     req: Request,
     res: Response,
     next: NextFunction
-  ): Promise<any> => {
+  ): Promise<Response> => {
     try {
       // check if user already exists
       let userExists = await this.UserService.getUserByEmail(req.body.email);

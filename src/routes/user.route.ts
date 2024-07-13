@@ -2,6 +2,7 @@ import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
 import { userAuth } from '../middlewares/auth.middleware';
+import { uploadToCloudinary } from '../middlewares/uploadImage.middleware';
 
 class UserRoutes {
   private UserController = new userController();
@@ -22,11 +23,19 @@ class UserRoutes {
     this.router.post('/login', this.UserController.loginUser);
 
     //route to get a single user
-    this.router.get('/:_id', userAuth, this.UserController.getUser);
+    this.router.get('/:_id', userAuth, this.UserController.getUserById);
+
+    this.router.get('/profile', userAuth, this.UserController.getUserProfile);
+
+    this.router.get(
+      '/profile/update',
+      userAuth,
+      uploadToCloudinary,
+      this.UserController.updateUser
+    );
 
     //routes to update a single user
     this.router.put('/:_id', this.UserController.updateUser);
-    this.router.patch('/:_id', this.UserController.updateUser);
 
     //send otp to email
     this.router.post('/forgot-password', this.UserController.sendOTPEmail);
