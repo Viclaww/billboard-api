@@ -26,6 +26,9 @@ class BillboardRoutes {
       userAuth,
       this.billboardController.getBillboardByNewest
     );
+
+    // get the billboards
+    this.router.get('/list', userAuth, this.billboardController.getBillboards);
   };
   public getRoutes = (): IRouter => {
     return this.router;

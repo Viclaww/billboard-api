@@ -55,6 +55,8 @@ class BillboardController {
     }
   };
 
+  
+
   /**
    * Controller to create a billboard
    * @param  {object} Request - request object

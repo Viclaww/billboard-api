@@ -48,11 +48,23 @@ class UserRoutes {
 
     //route to delete a single user
     this.router.delete('/:_id', this.UserController.deleteUser);
-  };
 
-  public getRoutes = (): IRouter => {
-    return this.router;
+    // route for google login
+    this.router.get('/google', this.UserController.signUpWithGoogle);
+    this.router.get('/google/callback', this.UserController.googleCallback);
+    this.router.post(
+      '/google/token',
+      this.UserController.authenticateGoogleToken
+    );
+
+    this.router.get('/logout', (req: any, res: any) => {
+      req.logout();
+      res.redirect('/');
+    });
   };
+  public getRoutes(): IRouter {
+    return this.router;
+  }
 }
 
 export default UserRoutes;

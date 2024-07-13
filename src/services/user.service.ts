@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
+import { OAuth2Client } from 'google-auth-library';
 import {
   comparePasswordUtil,
   hashPassword,
@@ -12,6 +13,7 @@ class UserService {
     const data = await User.find();
     return data;
   };
+  public client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
   //create new user
   public newUser = async (body: IUser): Promise<IUser> => {
@@ -151,6 +153,37 @@ class UserService {
   public signToken = async (body: IUser): Promise<string> => {
     let token = await signToken(body);
     return token;
+  };
+
+  public verifyGoogleToken = async (idToken: string): Promise<any> => {
+    // Verify the ID token using Google API or a library
+    const ticket = await this.client.verifyIdToken({
+      idToken,
+      audience: process.env.GOOGLE_CLIENT_ID
+    });
+    const payload = ticket.getPayload();
+    const email = payload['email'];
+
+    // Find or create the user in your database
+    let user = await User.findOne({ email });
+    if (!user) {
+      // Create a new user if not found
+      user = new User({
+        googleId: payload['sub'],
+        fullName: payload['name'],
+        email: payload['email']
+
+        // Add other fields as required
+      });
+      await user.save();
+    } else {
+      // Update existing user with googleId if not already set
+      if (!user.googleId) {
+        user.googleId = payload['sub'];
+        await user.save();
+      }
+    }
+    return user;
   };
 }
 

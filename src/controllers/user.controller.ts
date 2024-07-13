@@ -5,6 +5,7 @@ import { transporter } from '../config/nodemailer';
 import { Request, Response, NextFunction, response } from 'express';
 import jwt from 'jsonwebtoken';
 import { generateOTP, returnFrontendUserInfo } from '../utils/user.util';
+import passport from 'passport';
 
 class UserController {
   public UserService = new userService();
@@ -355,10 +356,10 @@ class UserController {
     req: Request,
     res: Response,
     next: NextFunction
-  ): Promise<any> => {
+  ): Promise<Response> => {
     try {
       await this.UserService.deleteUser(req.params._id);
-      res.status(HttpStatus.OK).json({
+      return res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: {},
         message: 'User deleted successfully'
@@ -366,6 +367,50 @@ class UserController {
     } catch (error) {
       next(error);
     }
+  };
+
+  /**
+   * Controllers for google authentication
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+  public authenticateGoogleToken = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<Response> => {
+    try {
+      const token = req.body.token;
+      const user = await this.UserService.verifyGoogleToken(token);
+      return (req as any).login(user, async (error) => {
+        if (error) {
+          return res.status(500).send('failed to login');
+        }
+        return res.status(200).json({
+          code: HttpStatus.OK,
+          data: returnFrontendUserInfo(user),
+          message: 'User logged in successfully'
+        });
+      });
+    } catch (error) {
+      //  res.status(401).send('Invalid ID token');
+      next(error);
+    }
+  };
+
+  public signUpWithGoogle = async () => {
+    // implement google sign up
+    passport.authenticate('google', { scope: ['profile', 'email'] });
+  };
+
+  public googleCallback = async () => {
+    // implement google callback
+    passport.authenticate('google', { failureRedirect: '/login' }),
+      function (req, res) {
+        // Successful authentication, redirect home.
+        res.redirect('/');
+      };
   };
 }
 

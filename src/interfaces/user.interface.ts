@@ -11,6 +11,7 @@ export interface IUser extends Document {
   SOR: string | undefined;
   OTP: String | undefined | null;
   resetingPassword: Boolean;
+  googleId: string | undefined;
   field:
     | 'Billboard Owner'
     | 'Advertising Agent'

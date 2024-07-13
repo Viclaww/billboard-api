@@ -5,6 +5,11 @@ import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 
+// for google authentication
+import session from 'express-session';
+import passport from 'passport';
+import './config/GooglePassport';
+
 import routes from './routes';
 import Database from './config/database';
 import ErrorHandler from './middlewares/error.middleware';
@@ -42,6 +47,17 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
     this.app.use(morgan('combined', { stream: this.logStream }));
+    this.app.use(passport.initialize());
+    this.app.use(passport.session());
+
+    // for google authentication
+    this.app.use(
+      session({
+        secret: 'your_secret_key',
+        resave: false,
+        saveUninitialized: false
+      })
+    );
   }
 
   public initializeDatabase(): void {
