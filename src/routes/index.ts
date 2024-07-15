@@ -25,7 +25,7 @@ const routes = (): IRouter => {
   // });
 
   router.use('/auth', new userRoute().getRoutes());
-  router.use('/billboard', new BillboardRoutes().getRoutes());
+  router.use('/billboards', new BillboardRoutes().getRoutes());
 
   return router;
 };

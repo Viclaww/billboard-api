@@ -48,16 +48,16 @@ class App {
     this.app.use(express.json());
     this.app.use(morgan('combined', { stream: this.logStream }));
     this.app.use(passport.initialize());
-    this.app.use(passport.session());
+    // this.app.use(passport.session());
 
     // for google authentication
-    this.app.use(
-      session({
-        secret: 'your_secret_key',
-        resave: false,
-        saveUninitialized: false
-      })
-    );
+    // this.app.use(
+    //   session({
+    //     secret: 'your_secret_key',
+    //     resave: false,
+    //     saveUninitialized: false
+    //   })
+    // );
   }
 
   public initializeDatabase(): void {

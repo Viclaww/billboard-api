@@ -25,9 +25,20 @@ class UserRoutes {
     //route to get a single user
     this.router.get('/:_id', userAuth, this.UserController.getUserById);
 
-    this.router.get('/profile', userAuth, this.UserController.getUserProfile);
-
     this.router.get(
+      'user/profile',
+      userAuth,
+      this.UserController.getUserProfile
+    );
+
+    this.router.put(
+      '/profile/update',
+      userAuth,
+      uploadToCloudinary,
+      this.UserController.updateUser
+    );
+
+    this.router.patch(
       '/profile/update',
       userAuth,
       uploadToCloudinary,
@@ -35,13 +46,14 @@ class UserRoutes {
     );
 
     //routes to update a single user
-    this.router.put('/:_id', this.UserController.updateUser);
+    this.router.put('user/:_id', this.UserController.updateUser);
+    this.router.patch('user/:_id', this.UserController.updateUser);
 
     //send otp to email
-    this.router.post('/forgot-password', this.UserController.sendOTPEmail);
+    this.router.post('/password/reset', this.UserController.sendOTPEmail);
 
     // change-password
-    this.router.post('/change-password', this.UserController.changePaassword);
+    this.router.post('/password/change', this.UserController.changePaassword);
 
     // verify otp
     this.router.post('/verify-otp', this.UserController.verifyOTP);
@@ -50,7 +62,7 @@ class UserRoutes {
     this.router.delete('/:_id', this.UserController.deleteUser);
 
     // route for google login
-    this.router.get('/google', this.UserController.signUpWithGoogle);
+    this.router.get('/google-signup', this.UserController.signUpWithGoogle);
     this.router.get('/google/callback', this.UserController.googleCallback);
     this.router.post(
       '/google/token',
