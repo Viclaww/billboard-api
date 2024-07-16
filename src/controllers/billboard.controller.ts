@@ -31,6 +31,30 @@ class BillboardController {
     }
   };
 
+  public getABillboard = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const id = req.params.id;
+      const data = await this.billboardService.getSingleBillboardById(id);
+      if (data) {
+        console.log(data);
+
+        return res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Billboard fetched Successful!'
+        });
+      } else {
+        return res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.NOT_FOUND,
+          message: 'Billboard Not found'
+        });
+      }
+    } catch (error) {}
+  };
   /**
    * Controller to get all billboards
    * @param  {object} Request - request object
@@ -55,7 +79,14 @@ class BillboardController {
     }
   };
 
-  
+  public getSingleBillboard = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+    } catch (error) {}
+  };
 
   /**
    * Controller to create a billboard

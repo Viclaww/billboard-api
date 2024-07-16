@@ -6,6 +6,8 @@ import {
   hashPassword,
   signToken
 } from '../utils/user.util';
+import jwt from 'jsonwebtoken';
+import { hash } from 'argon2';
 
 class UserService {
   //get all users
@@ -44,6 +46,13 @@ class UserService {
     return '';
   };
 
+  public getUserbyBearerToken = async (bearerToken: string) => {
+    const decodedToken = jwt.decode(bearerToken) as { email: string };
+    // getting the user  threugh decodedtoken
+    const user = await this.getUserByEmail(decodedToken.email);
+    return user;
+  };
+
   //get a single user by id
   public getUser = async (_id: string): Promise<IUser> => {
     const data = await User.findById(_id);
@@ -52,7 +61,7 @@ class UserService {
 
   // get a single user by email
   public getUserByEmail = async (email: string): Promise<IUser> => {
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ email: email });
     return user;
   };
 
@@ -80,12 +89,13 @@ class UserService {
     _id: string | number,
     password: string
   ): Promise<IUser> => {
+    const passwordHash = await hash(password);
     const updatedUser = await User.findByIdAndUpdate(
       {
         _id
       },
       {
-        password
+        password: passwordHash
       },
       {
         new: true

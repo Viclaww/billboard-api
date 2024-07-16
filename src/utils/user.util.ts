@@ -10,7 +10,7 @@ export const hashPassword = async (body) => {
 };
 
 export const returnFrontendUserInfo = (data) => {
-  // returning save data to frontend
+  // returning safe data to frontend
   return {
     id: data._id,
     email: data.email,

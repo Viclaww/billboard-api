@@ -41,7 +41,7 @@ class UserRoutes {
     this.router.patch(
       '/profile/update',
       userAuth,
-      uploadToCloudinary,
+      // uploadToCloudinary,
       this.UserController.updateUser
     );
 

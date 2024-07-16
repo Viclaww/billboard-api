@@ -2,7 +2,8 @@ import { IBillboard } from '../interfaces/billboard.interface';
 import Billboard from '../models/billboard.model';
 import {
   getBillboardByNewest,
-  getBillboardByOwnerId
+  getBillboardByOwnerId,
+  getSingleBillboard
 } from '../utils/billboard.util';
 
 class BillboardService {
@@ -41,6 +42,10 @@ class BillboardService {
     return data;
   };
 
+  public getSingleBillboardById = async (id: string) => {
+    const data = await getSingleBillboard(id);
+    return data;
+  };
   public getBillBoardByNewest = async (): Promise<IBillboard[]> => {
     const data = await getBillboardByNewest();
     return data;

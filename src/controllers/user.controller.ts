@@ -71,10 +71,7 @@ class UserController {
     try {
       let bearerToken = req.header('Authorization').split(' ')[1].trim();
       if (bearerToken) {
-        const decodedToken = jwt.decode(bearerToken) as { email: string }; // decoding the bearer token
-
-        // getting the user  threugh decodedtoken
-        const user = await this.UserService.getUserByEmail(decodedToken.email);
+        let user = this.UserService.getUserbyBearerToken(bearerToken);
 
         return res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
@@ -143,8 +140,11 @@ class UserController {
   ) => {
     try {
       let user = await this.UserService.getUserByEmail(req.body.email); // check for user
+      console.log(req.body);
       if (!user) {
         // if user doesnt exist
+        console.log(user);
+
         return res.status(HttpStatus.NOT_FOUND).json({
           code: HttpStatus.NOT_FOUND,
           message: 'User Does not exists. Create account'
@@ -188,7 +188,17 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.updateUser(req.params._id, req.body);
+      let data;
+      if (req.params.id) {
+        data = await this.UserService.updateUser(req.params._id, req.body);
+      } else {
+        let bearerToken = req.header('Authorization').split(' ')[1].trim();
+        if (bearerToken) {
+          let user = await this.UserService.getUserbyBearerToken(bearerToken);
+          data = await this.UserService.updateUser(user._id, req.body);
+        }
+      }
+
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: {
@@ -273,6 +283,8 @@ class UserController {
       const { email, otp } = req.body;
 
       const user = await this.UserService.getUserByEmail(email);
+      console.log(req.body);
+
       if (!user) {
         return res.status(HttpStatus.NOT_FOUND).json({
           code: HttpStatus.NOT_FOUND,

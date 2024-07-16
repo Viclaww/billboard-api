@@ -8,6 +8,11 @@ export const getBillboardByOwnerId = async (
   return data;
 };
 
+export const getSingleBillboard = async (id: string) => {
+  const data = await Billboard.find({ _id: id });
+  return data;
+};
+
 export const getBillboardByLocation = async (
   location: string
 ): Promise<IBillboard[]> => {
