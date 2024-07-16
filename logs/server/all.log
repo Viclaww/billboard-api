@@ -876,3 +876,1045 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T0
 info: Connected to the database. {"timestamp":"2024-07-11T08:02:42.392Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T08:02:55.189Z"}
 info: Connected to the database. {"timestamp":"2024-07-11T08:02:57.401Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T08:03:39.287Z"}
+info: Connected to the database. {"timestamp":"2024-07-11T08:03:41.261Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-11T17:23:42.917Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-11T17:23:42.984Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:49:11.525Z"}
+error: Could not connect to the database. querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"EREFUSED","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv EREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-12T21:49:11.619Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:49:43.301Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:49:48.364Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:51:42.677Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:51:48.098Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:51:50.682Z"}
+error: uncaughtException: Must supply api_key
+Error: Must supply api_key
+    at ensureOption (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\ensureOption.js:19:13)
+    at Object.sign_request (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1145:16)
+    at Object.process_request_params (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1195:22)
+    at call_api (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:472:18)
+    at Object.upload (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:53:10)
+    at Object.upload (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1392:21)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:41:25
+    at done (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:529:35)
+    at finish (node:internal/streams/writable:748:10)
+    at finishMaybe (node:internal/streams/writable:733:9)
+    at afterWrite (node:internal/streams/writable:507:3)
+    at onwrite (node:internal/streams/writable:480:7) {"date":"Fri Jul 12 2024 22:53:19 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":310628.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19137539,"external":20132679,"heapTotal":33738752,"heapUsed":30873056,"rss":74694656},"pid":10608,"uid":null,"version":"v18.18.0"},"stack":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1145:16)\n    at Object.process_request_params (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1195:22)\n    at call_api (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:472:18)\n    at Object.upload (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1392:21)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:41:25\n    at done (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:529:35)\n    at finish (node:internal/streams/writable:748:10)\n    at finishMaybe (node:internal/streams/writable:733:9)\n    at afterWrite (node:internal/streams/writable:507:3)\n    at onwrite (node:internal/streams/writable:480:7)","timestamp":"2024-07-12T21:53:19.730Z","trace":[{"column":13,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js","function":"ensureOption","line":19,"method":null,"native":false},{"column":16,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":"Object.sign_request","line":1145,"method":"sign_request","native":false},{"column":22,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":"Object.process_request_params","line":1195,"method":"process_request_params","native":false},{"column":18,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":"call_api","line":472,"method":null,"native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":"Object.upload","line":53,"method":"upload","native":false},{"column":21,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":"Object.upload","line":1392,"method":"upload","native":false},{"column":25,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":41,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":"done","line":45,"method":null,"native":false},{"column":68,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":"indicateDone","line":49,"method":null,"native":false},{"column":11,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":155,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\storage\\disk.js","function":null,"line":43,"method":null,"native":false},{"column":35,"file":"node:events","function":"WriteStream.emit","line":529,"method":"emit","native":false},{"column":10,"file":"node:internal/streams/writable","function":"finish","line":748,"method":null,"native":false},{"column":9,"file":"node:internal/streams/writable","function":"finishMaybe","line":733,"method":null,"native":false},{"column":3,"file":"node:internal/streams/writable","function":"afterWrite","line":507,"method":null,"native":false},{"column":7,"file":"node:internal/streams/writable","function":"onwrite","line":480,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:54:47.670Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:54:50.311Z"}
+error: uncaughtException: Must supply api_key
+Error: Must supply api_key
+    at ensureOption (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\ensureOption.js:19:13)
+    at Object.sign_request (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1145:16)
+    at Object.process_request_params (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1195:22)
+    at call_api (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:472:18)
+    at Object.upload (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:53:10)
+    at Object.upload (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1392:21)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:41:25
+    at done (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:529:35)
+    at finish (node:internal/streams/writable:748:10)
+    at finishMaybe (node:internal/streams/writable:733:9)
+    at afterWrite (node:internal/streams/writable:507:3)
+    at onwrite (node:internal/streams/writable:480:7) {"date":"Fri Jul 12 2024 22:55:05 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":310734.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18773155,"external":19768295,"heapTotal":65458176,"heapUsed":31704520,"rss":97849344},"pid":16356,"uid":null,"version":"v18.18.0"},"stack":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1145:16)\n    at Object.process_request_params (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1195:22)\n    at call_api (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:472:18)\n    at Object.upload (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1392:21)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:41:25\n    at done (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:529:35)\n    at finish (node:internal/streams/writable:748:10)\n    at finishMaybe (node:internal/streams/writable:733:9)\n    at afterWrite (node:internal/streams/writable:507:3)\n    at onwrite (node:internal/streams/writable:480:7)","timestamp":"2024-07-12T21:55:05.552Z","trace":[{"column":13,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js","function":"ensureOption","line":19,"method":null,"native":false},{"column":16,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":"Object.sign_request","line":1145,"method":"sign_request","native":false},{"column":22,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":"Object.process_request_params","line":1195,"method":"process_request_params","native":false},{"column":18,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":"call_api","line":472,"method":null,"native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":"Object.upload","line":53,"method":"upload","native":false},{"column":21,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":"Object.upload","line":1392,"method":"upload","native":false},{"column":25,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":41,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":"done","line":45,"method":null,"native":false},{"column":68,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":"indicateDone","line":49,"method":null,"native":false},{"column":11,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":155,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\storage\\disk.js","function":null,"line":43,"method":null,"native":false},{"column":35,"file":"node:events","function":"WriteStream.emit","line":529,"method":"emit","native":false},{"column":10,"file":"node:internal/streams/writable","function":"finish","line":748,"method":null,"native":false},{"column":9,"file":"node:internal/streams/writable","function":"finishMaybe","line":733,"method":null,"native":false},{"column":3,"file":"node:internal/streams/writable","function":"afterWrite","line":507,"method":null,"native":false},{"column":7,"file":"node:internal/streams/writable","function":"onwrite","line":480,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:55:17.091Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:55:19.695Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:56:17.760Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:56:20.699Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:56:39.602Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:56:42.298Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'upload')
+TypeError: Cannot read properties of undefined (reading 'upload')
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:42:20
+    at done (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:529:35)
+    at finish (node:internal/streams/writable:748:10)
+    at finishMaybe (node:internal/streams/writable:733:9)
+    at afterWrite (node:internal/streams/writable:507:3)
+    at onwrite (node:internal/streams/writable:480:7)
+    at node:internal/fs/streams:410:5
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:829:5) {"date":"Fri Jul 12 2024 22:56:48 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":310837.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18748474,"external":19743575,"heapTotal":65458176,"heapUsed":31174904,"rss":96833536},"pid":11360,"uid":null,"version":"v18.18.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'upload')\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:42:20\n    at done (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:529:35)\n    at finish (node:internal/streams/writable:748:10)\n    at finishMaybe (node:internal/streams/writable:733:9)\n    at afterWrite (node:internal/streams/writable:507:3)\n    at onwrite (node:internal/streams/writable:480:7)\n    at node:internal/fs/streams:410:5\n    at FSReqCallback.wrapper [as oncomplete] (node:fs:829:5)","timestamp":"2024-07-12T21:56:48.847Z","trace":[{"column":20,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":42,"method":null,"native":false},{"column":7,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":"done","line":45,"method":null,"native":false},{"column":68,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":"indicateDone","line":49,"method":null,"native":false},{"column":11,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\lib\\make-middleware.js","function":null,"line":155,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\multer\\storage\\disk.js","function":null,"line":43,"method":null,"native":false},{"column":35,"file":"node:events","function":"WriteStream.emit","line":529,"method":"emit","native":false},{"column":10,"file":"node:internal/streams/writable","function":"finish","line":748,"method":null,"native":false},{"column":9,"file":"node:internal/streams/writable","function":"finishMaybe","line":733,"method":null,"native":false},{"column":3,"file":"node:internal/streams/writable","function":"afterWrite","line":507,"method":null,"native":false},{"column":7,"file":"node:internal/streams/writable","function":"onwrite","line":480,"method":null,"native":false},{"column":5,"file":"node:internal/fs/streams","function":null,"line":410,"method":null,"native":false},{"column":5,"file":"node:fs","function":"FSReqCallback.wrapper [as oncomplete]","line":829,"method":"wrapper [as oncomplete]","native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:57:23.832Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:57:26.457Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:58:09.381Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:58:11.948Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T21:58:17.734Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T21:58:20.222Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:46:30
+    at C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1375:14
+    at IncomingMessage.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:512:9)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jul 12 2024 22:58:22 GMT+0100 (West Africa Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":310931.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19295258,"external":20290334,"heapTotal":65720320,"heapUsed":32034024,"rss":98263040},"pid":16608,"uid":null,"version":"v18.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:405:5)\n    at ServerResponse.setHeader (node:_http_outgoing:648:11)\n    at ServerResponse.header (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:795:10)\n    at ServerResponse.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:175:12)\n    at ServerResponse.json (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:279:15)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:46:30\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1375:14\n    at IncomingMessage.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:512:9)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1368:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-07-12T21:58:22.566Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":405,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":648,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":795,"method":"header","native":false},{"column":12,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":175,"method":"send","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":279,"method":"json","native":false},{"column":30,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":null,"line":1375,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":null,"line":512,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":529,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:00:59.581Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:01:02.267Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:46:30
+    at C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1375:14
+    at IncomingMessage.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:512:9)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jul 12 2024 23:01:13 GMT+0100 (West Africa Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":311102.25},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18308664,"external":20273430,"heapTotal":32690176,"heapUsed":30023104,"rss":73117696},"pid":9204,"uid":null,"version":"v18.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:405:5)\n    at ServerResponse.setHeader (node:_http_outgoing:648:11)\n    at ServerResponse.header (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:795:10)\n    at ServerResponse.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:175:12)\n    at ServerResponse.json (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:279:15)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:46:30\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1375:14\n    at IncomingMessage.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:512:9)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1368:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-07-12T22:01:13.579Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":405,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":648,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":795,"method":"header","native":false},{"column":12,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":175,"method":"send","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":279,"method":"json","native":false},{"column":30,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":null,"line":1375,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":null,"line":512,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":529,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:01:38.506Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:01:41.168Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:48:30
+    at C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1375:14
+    at IncomingMessage.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:512:9)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jul 12 2024 23:01:46 GMT+0100 (West Africa Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":311135.25},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19295258,"external":20290334,"heapTotal":65720320,"heapUsed":32533440,"rss":98656256},"pid":7928,"uid":null,"version":"v18.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:405:5)\n    at ServerResponse.setHeader (node:_http_outgoing:648:11)\n    at ServerResponse.header (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:795:10)\n    at ServerResponse.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:175:12)\n    at ServerResponse.json (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:279:15)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:48:30\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1375:14\n    at IncomingMessage.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:512:9)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1368:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-07-12T22:01:46.582Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":405,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":648,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":795,"method":"header","native":false},{"column":12,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":175,"method":"send","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":279,"method":"json","native":false},{"column":30,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":48,"method":null,"native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":null,"line":1375,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":null,"line":512,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":529,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:02:02.664Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:02:05.252Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:48:30
+    at C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1375:14
+    at IncomingMessage.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:512:9)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jul 12 2024 23:02:06 GMT+0100 (West Africa Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":311154.843},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19295258,"external":20290334,"heapTotal":65458176,"heapUsed":31989560,"rss":97677312},"pid":6036,"uid":null,"version":"v18.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:405:5)\n    at ServerResponse.setHeader (node:_http_outgoing:648:11)\n    at ServerResponse.header (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:795:10)\n    at ServerResponse.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:175:12)\n    at ServerResponse.json (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:279:15)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:48:30\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1375:14\n    at IncomingMessage.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:512:9)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1368:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-07-12T22:02:06.168Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":405,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":648,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":795,"method":"header","native":false},{"column":12,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":175,"method":"send","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":279,"method":"json","native":false},{"column":30,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":48,"method":null,"native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":null,"line":1375,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":null,"line":512,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":529,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:05:11.386Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:05:13.997Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:48:30
+    at C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1375:14
+    at IncomingMessage.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:512:9)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jul 12 2024 23:05:19 GMT+0100 (West Africa Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":311348.062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19295258,"external":20290334,"heapTotal":65458176,"heapUsed":31745792,"rss":98566144},"pid":2600,"uid":null,"version":"v18.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:405:5)\n    at ServerResponse.setHeader (node:_http_outgoing:648:11)\n    at ServerResponse.header (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:795:10)\n    at ServerResponse.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:175:12)\n    at ServerResponse.json (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:279:15)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:48:30\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1375:14\n    at IncomingMessage.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:512:9)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1368:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-07-12T22:05:19.388Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":405,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":648,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":795,"method":"header","native":false},{"column":12,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":175,"method":"send","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":279,"method":"json","native":false},{"column":30,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":48,"method":null,"native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":null,"line":1375,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":null,"line":512,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":529,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:05:43.302Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:05:45.839Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:06:29.078Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:06:31.797Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:48:30
+    at C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1375:14
+    at IncomingMessage.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:512:9)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jul 12 2024 23:06:54 GMT+0100 (West Africa Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":311443.406},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19259251,"external":20254327,"heapTotal":33476608,"heapUsed":30760256,"rss":75456512},"pid":12628,"uid":null,"version":"v18.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:405:5)\n    at ServerResponse.setHeader (node:_http_outgoing:648:11)\n    at ServerResponse.header (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:795:10)\n    at ServerResponse.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:175:12)\n    at ServerResponse.json (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:279:15)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:48:30\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1375:14\n    at IncomingMessage.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:512:9)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1368:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-07-12T22:06:54.738Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":405,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":648,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":795,"method":"header","native":false},{"column":12,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":175,"method":"send","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":279,"method":"json","native":false},{"column":30,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":48,"method":null,"native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":null,"line":1375,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":null,"line":512,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":529,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:09:23.098Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:09:26.050Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\Users\PC\documents\billboard-api\node_modules\express\lib\response.js:279:15)
+    at C:\Users\PC\documents\billboard-api\src\config\multer.ts:48:30
+    at C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\utils\index.js:1375:14
+    at IncomingMessage.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\cloudinary\lib\uploader.js:512:9)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jul 12 2024 23:09:29 GMT+0100 (West Africa Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":311597.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19295258,"external":20290334,"heapTotal":67555328,"heapUsed":31801936,"rss":105938944},"pid":2024,"uid":null,"version":"v18.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:405:5)\n    at ServerResponse.setHeader (node:_http_outgoing:648:11)\n    at ServerResponse.header (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:795:10)\n    at ServerResponse.send (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:175:12)\n    at ServerResponse.json (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js:279:15)\n    at C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts:48:30\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js:1375:14\n    at IncomingMessage.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js:512:9)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1368:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-07-12T22:09:29.304Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":405,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":648,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":795,"method":"header","native":false},{"column":12,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":175,"method":"send","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":279,"method":"json","native":false},{"column":30,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\config\\multer.ts","function":null,"line":48,"method":null,"native":false},{"column":14,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\utils\\index.js","function":null,"line":1375,"method":null,"native":false},{"column":9,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\cloudinary\\lib\\uploader.js","function":null,"line":512,"method":null,"native":false},{"column":35,"file":"node:events","function":"IncomingMessage.emit","line":529,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1368,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:10:18.415Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:10:20.831Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:10:55.181Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:10:57.709Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:11:20.396Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:11:23.153Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:11:33.876Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:11:36.202Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-12T22:11:44.650Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:16:31.332Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:16:33.989Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-12T22:16:40.448Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:17:50.999Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:17:53.561Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-12T22:19:51.468Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:21:38.364Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:21:41.212Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-12T22:21:49.071Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:24:25.383Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:24:28.252Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-12T22:24:35.197Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:28:09.877Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:28:18.375Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:31:08.442Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:31:11.119Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:34:31.349Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:34:34.483Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:37:44.631Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:37:47.328Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:43:15.727Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:43:18.896Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:43:48.354Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:43:51.057Z"}
+error: 
+    status - 500 
+    message - Error: Can't send mail - all recipients were rejected: 554 5.7.1 Demo domains can only be used to send emails to account owners. You can only send testing emails to your own email address.
+    at SMTPConnection._formatError (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)
+    at SMTPConnection._actionRCPT (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1667:28)
+    at SMTPConnection.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:1620:30)
+    at SMTPConnection._processResponse (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\PC\documents\billboard-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:245:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) 
+    url - /api/v1/auth/forgot-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-12T22:47:59.367Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:55:56.080Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:55:58.766Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:56:24.644Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:56:27.008Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T22:56:50.163Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T22:56:52.732Z"}
+error: 
+    status - 500 
+    message - ValidationError: Billboard validation failed: size: `Potrait` is not a valid enum value for path `size`.
+    at model.Document.invalidate (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/billboard/new 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-12T22:56:58.080Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:00:27.050Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:00:29.885Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:02:08.915Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:02:11.599Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:02:22.535Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:02:25.027Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:02:43.959Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:02:46.456Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:03:06.409Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:03:09.588Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:03:42.248Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:03:44.773Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:04:12.643Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:04:15.173Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:05:08.048Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:05:10.527Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-12T23:05:20.288Z"}
+info: Connected to the database. {"timestamp":"2024-07-12T23:05:22.722Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-13T01:39:57.026Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-13T01:39:57.105Z"}
+error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:521:19)
+    at BillboardRoutes.routes (C:\Users\PC\documents\billboard-api\src\routes\billboard.route.ts:16:17)
+    at new BillboardRoutes (C:\Users\PC\documents\billboard-api\src\routes\billboard.route.ts:11:10)
+    at routes (C:\Users\PC\documents\billboard-api\src\routes\index.ts:28:28)
+    at App.initializeRoutes (C:\Users\PC\documents\billboard-api\src\index.ts:52:52)
+    at new App (C:\Users\PC\documents\billboard-api\src\index.ts:33:10)
+    at Object.<anonymous> (C:\Users\PC\documents\billboard-api\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._compile (C:\Users\PC\Documents\billboard-api\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\PC\AppData\Local\Temp\ts-node-dev-hook-20276732620950355.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\PC\AppData\Local\Temp\ts-node-dev-hook-20276732620950355.js:114:20)
+    at require.extensions.<computed> (C:\Users\PC\AppData\Local\Temp\ts-node-dev-hook-20276732620950355.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\PC\Documents\billboard-api\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1119:32) {"date":"Sat Jul 13 2024 02:40:17 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":324246.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18459781,"external":19304338,"heapTotal":62312448,"heapUsed":31774976,"rss":92266496},"pid":4796,"uid":null,"version":"v18.18.0"},"stack":"Error: Route.post() requires a callback function but got a [object Object]\n    at Route.<computed> [as post] (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at BillboardRoutes.routes (C:\\Users\\PC\\documents\\billboard-api\\src\\routes\\billboard.route.ts:16:17)\n    at new BillboardRoutes (C:\\Users\\PC\\documents\\billboard-api\\src\\routes\\billboard.route.ts:11:10)\n    at routes (C:\\Users\\PC\\documents\\billboard-api\\src\\routes\\index.ts:28:28)\n    at App.initializeRoutes (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:52:52)\n    at new App (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:33:10)\n    at Object.<anonymous> (C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (C:\\Users\\PC\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\PC\\AppData\\Local\\Temp\\ts-node-dev-hook-20276732620950355.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\PC\\AppData\\Local\\Temp\\ts-node-dev-hook-20276732620950355.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\PC\\AppData\\Local\\Temp\\ts-node-dev-hook-20276732620950355.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Users\\PC\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)","timestamp":"2024-07-13T01:40:17.530Z","trace":[{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\routes\\billboard.route.ts","function":"BillboardRoutes.routes","line":16,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\routes\\billboard.route.ts","function":"new BillboardRoutes","line":11,"method":null,"native":false},{"column":28,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\routes\\index.ts","function":"routes","line":28,"method":null,"native":false},{"column":52,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"C:\\Users\\PC\\documents\\billboard-api\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\PC\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\PC\\AppData\\Local\\Temp\\ts-node-dev-hook-20276732620950355.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":20,"file":"C:\\Users\\PC\\AppData\\Local\\Temp\\ts-node-dev-hook-20276732620950355.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\PC\\AppData\\Local\\Temp\\ts-node-dev-hook-20276732620950355.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Users\\PC\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T15:39:41.042Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T15:39:46.838Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - / 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:42:34.732Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /favicon.ico 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:42:48.316Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T15:45:16.792Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T15:45:21.631Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T15:45:32.676Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T15:45:40.158Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - / 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:45:42.224Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /favicon.ico 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:45:58.686Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T15:46:36.625Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T15:46:41.536Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - / 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:47:35.842Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /favicon.ico 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:47:37.405Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T15:48:06.687Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T15:48:14.736Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T15:48:18.746Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - / 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:48:20.321Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /favicon.ico 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:48:21.772Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:48:30.602Z"}
+error: 
+    status - 500 
+    message - Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+    at SessionStrategy.authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\strategies\session.js:97:41)
+    at attempt (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\authenticate.js:379:7)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at initialize (C:\Users\PC\documents\billboard-api\node_modules\passport\lib\middleware\initialize.js:98:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\PC\documents\billboard-api\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /favicon.ico 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-15T15:48:34.378Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T15:48:56.618Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T15:49:01.324Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T16:42:07.824Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T16:42:13.041Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:32:22.079Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-07-15T21:32:22.203Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:34:12.662Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:34:25.250Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:35:55.087Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:35:59.190Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:40:59.511Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:41:02.898Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:41:14.352Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:41:16.600Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:41:23.572Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:41:26.069Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:41:29.878Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:41:32.147Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:43:01.221Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:43:03.825Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:45:02.371Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:45:04.747Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:45:14.318Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:45:16.536Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:45:21.918Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:45:23.756Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:47:30.176Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:47:32.681Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:47:41.681Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:47:44.615Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T21:47:55.281Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T21:47:57.828Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:20:37
+    at multerMiddleware (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:13:41)
+    at uploadToCloudinary (C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:13:24)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:36:13
+    at C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:27:17
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-07-15T21:57:19.317Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:20:37
+    at multerMiddleware (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:13:41)
+    at uploadToCloudinary (C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:13:24)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:36:13
+    at C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:27:17
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T21:58:20.975Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:20:37
+    at multerMiddleware (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:13:41)
+    at uploadToCloudinary (C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:13:24)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:36:13
+    at C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:27:17
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T21:58:56.352Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:20:37
+    at multerMiddleware (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:13:41)
+    at uploadToCloudinary (C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:13:24)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:36:13
+    at C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:27:17
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T21:59:20.157Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:20:37
+    at multerMiddleware (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:13:41)
+    at uploadToCloudinary (C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:13:24)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:36:13
+    at C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:27:17
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T21:59:22.001Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:20:37
+    at multerMiddleware (C:\Users\PC\documents\billboard-api\node_modules\multer\lib\make-middleware.js:13:41)
+    at uploadToCloudinary (C:\Users\PC\documents\billboard-api\src\middlewares\uploadImage.middleware.ts:13:24)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:36:13
+    at C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\PC\documents\billboard-api\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:27:17
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T22:00:09.636Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:00:56.658Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:00:59.375Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T22:01:19.587Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T22:03:12.616Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:03:38.916Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:03:41.292Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/auth/profile/update 
+    method - PATCH 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-15T22:04:47.418Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:10:05.873Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:10:10.829Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:10:29.888Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:10:33.375Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:10:55.444Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:11:00.072Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:11:24.528Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:11:29.994Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:12:59.057Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:13:02.140Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:13:17.975Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:13:20.821Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:14:47.590Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:14:53.635Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:14:56.705Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:16:31.858Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:16:34.607Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:17:17.279Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:17:19.917Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:17:34.882Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:17:37.130Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:18:22.100Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:18:24.390Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:18:36.030Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:18:39.184Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:18:41.242Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:28:27.743Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:28:34.401Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:29:56.112Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:29:58.610Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:30:31.182Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:30:37.081Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:31:34.295Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:31:36.723Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:33:10.884Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:33:13.343Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-15T22:37:58.229Z"}
+info: Connected to the database. {"timestamp":"2024-07-15T22:38:02.129Z"}
+error: 
+    status - 500 
+    message - Error: connect ETIMEDOUT 54.158.149.228:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) 
+    url - /api/v1/auth/password/reset/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-15T22:52:05.580Z"}
+error: uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\model.js:5095:32)
+    at C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4510:21
+    at C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4592:15) {"date":"Tue Jul 16 2024 10:25:02 GMT+0100 (West Africa Standard Time)","error":{"message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/","reason":{"commonWireVersion":21,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff0000000000000015","maxSetVersion":5,"servers":{},"setName":"atlas-bqil5f-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":611332.843},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\PC\\documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18359778,"external":19368051,"heapTotal":38981632,"heapUsed":37004480,"rss":81170432},"pid":8860,"uid":null,"version":"v18.18.0"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at Function.Model.$wrapCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\model.js:5095:32)\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\query.js:4510:21\n    at C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at model.Query.exec (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\query.js:4509:10)\n    at model.Query.Query.then (C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\query.js:4592:15)","timestamp":"2024-07-16T09:25:02.950Z","trace":[{"column":32,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\model.js","function":"Function.Model.$wrapCallback","line":5095,"method":"$wrapCallback","native":false},{"column":21,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\query.js","function":null,"line":4510,"method":null,"native":false},{"column":5,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js","function":null,"line":32,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js","function":"promiseOrCallback","line":31,"method":null,"native":false},{"column":10,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\query.js","function":"model.Query.exec","line":4509,"method":"exec","native":false},{"column":15,"file":"C:\\Users\\PC\\documents\\billboard-api\\node_modules\\mongoose\\lib\\query.js","function":"model.Query.Query.then","line":4592,"method":"then","native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T09:28:57.784Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T09:29:04.796Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T10:15:43.473Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T10:15:51.107Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T10:17:24.386Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T10:17:29.082Z"}
+error: 
+    status - 500 
+    message - TypeError: pchstr must contain a $ as first char
+    at deserialize (C:\Users\PC\documents\billboard-api\node_modules\@phc\format\index.js:147:11)
+    at verify (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:158:27)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:27:29
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at comparePasswordUtil (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:26:59)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:156:44)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.comparePassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:155:69)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:155:46)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/auth/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-16T10:21:27.492Z"}
+error: 
+    status - 500 
+    message - TypeError: pchstr must contain a $ as first char
+    at deserialize (C:\Users\PC\documents\billboard-api\node_modules\@phc\format\index.js:147:11)
+    at verify (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:158:27)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:27:29
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at comparePasswordUtil (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:26:59)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:156:44)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.comparePassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:155:69)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:155:46)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/auth/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-16T10:21:50.754Z"}
+error: 
+    status - 500 
+    message - TypeError: pchstr must contain a $ as first char
+    at deserialize (C:\Users\PC\documents\billboard-api\node_modules\@phc\format\index.js:147:11)
+    at verify (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:158:27)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:27:29
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at comparePasswordUtil (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:26:59)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:156:44)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.comparePassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:155:69)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:155:46)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/auth/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-16T10:22:48.424Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T10:27:58.591Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T10:28:03.554Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T10:28:07.675Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T10:28:10.258Z"}
+error: 
+    status - 500 
+    message - TypeError: pchstr must contain a $ as first char
+    at deserialize (C:\Users\PC\documents\billboard-api\node_modules\@phc\format\index.js:147:11)
+    at verify (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:158:27)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:27:29
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at comparePasswordUtil (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:26:59)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:158:44)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.comparePassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:157:69)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:155:46)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/auth/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-16T10:34:42.584Z"}
+error: 
+    status - 500 
+    message - TypeError: pchstr must contain a $ as first char
+    at deserialize (C:\Users\PC\documents\billboard-api\node_modules\@phc\format\index.js:147:11)
+    at verify (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:158:27)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:27:29
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at comparePasswordUtil (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:26:59)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:158:44)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.comparePassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:157:69)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:155:46)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/auth/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-16T10:35:23.891Z"}
+error: 
+    status - 500 
+    message - TypeError: pchstr must contain a $ as first char
+    at deserialize (C:\Users\PC\documents\billboard-api\node_modules\@phc\format\index.js:147:11)
+    at verify (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:158:27)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:27:29
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at comparePasswordUtil (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:26:59)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:158:44)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.comparePassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:157:69)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:155:46)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/auth/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-07-16T10:40:44.280Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T12:57:00.448Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T12:57:38.525Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T12:59:36.688Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T12:59:42.328Z"}
+error: 
+    status - 500 
+    message - TypeError: pchstr must contain a $ as first char
+    at deserialize (C:\Users\PC\documents\billboard-api\node_modules\@phc\format\index.js:147:11)
+    at verify (C:\Users\PC\documents\billboard-api\node_modules\argon2\argon2.cjs:158:27)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:27:29
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:4:12)
+    at comparePasswordUtil (C:\Users\PC\documents\billboard-api\src\utils\user.util.ts:26:59)
+    at UserService.<anonymous> (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:158:44)
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:4:12)
+    at UserService.comparePassword (C:\Users\PC\documents\billboard-api\src\services\user.service.ts:157:69)
+    at UserController.<anonymous> (C:\Users\PC\documents\billboard-api\src\controllers\user.controller.ts:155:46)
+    at Generator.next (<anonymous>) 
+    url - /api/v1/auth/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-16T13:03:27.457Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:05:34.499Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7) 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-16T13:05:56.880Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:06:02.983Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:06:55.242Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:07:00.405Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Query.exec (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\PC\documents\billboard-api\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/auth/password/change 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-16T13:13:40.522Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:14:18.447Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:14:26.523Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:24:30.631Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:24:43.831Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:26:35.919Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:26:44.190Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:27:44.186Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:27:48.751Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:29:12.909Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:29:20.148Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:29:53.827Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:30:02.239Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:30:25.118Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:30:36.533Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:30:45.519Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:31:50.703Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:31:55.073Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:32:00.241Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:32:06.912Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:32:16.144Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:32:21.035Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:34:01.738Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:34:07.712Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:34:17.565Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:34:24.561Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-07-16T13:34:35.939Z"}
+info: Connected to the database. {"timestamp":"2024-07-16T13:34:54.595Z"}
