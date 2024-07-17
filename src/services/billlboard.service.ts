@@ -70,7 +70,7 @@ class BillboardService {
   };
 
   public getBillboard = async (_id: string): Promise<IBillboard> => {
-    const data = await Billboard.findById(_id);
+    const data = await Billboard.findOne({ _id });
     return data;
   };
 }
