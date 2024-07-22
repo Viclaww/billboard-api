@@ -14,7 +14,7 @@ class UserRoutes {
 
   private routes = () => {
     //route to get all users
-    this.router.get('', this.UserController.getAllUsers);
+    this.router.get('/all', userAuth, this.UserController.getAllUsers);
 
     //route to create a new user
     this.router.post('/signup', this.UserController.newUser);
@@ -60,7 +60,7 @@ class UserRoutes {
     this.router.post('/password/reset', this.UserController.sendOTPEmail);
 
     // change-password
-    this.router.post('/password/change', this.UserController.changePaassword);
+    this.router.post('/password/change', this.UserController.changePassword);
 
     // verify otp
     this.router.post('/verify-otp', this.UserController.verifyOTP);

@@ -321,7 +321,7 @@ class UserController {
    * @param {Function} NextFunction
    */
 
-  public changePaassword = async (
+  public changePassword = async (
     req: Request,
     res: Response,
     next: NextFunction
