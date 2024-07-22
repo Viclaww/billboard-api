@@ -210,7 +210,7 @@ class UserController {
           'phone-number': data.phone,
           field: data.field
         },
-        message: 'User updated successfully'
+        message: 'Profile updated successfully'
       });
     } catch (error) {
       next(error);

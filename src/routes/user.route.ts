@@ -34,6 +34,13 @@ class UserRoutes {
     this.router.put(
       '/profile/update',
       userAuth,
+      // uploadToCloudinary,
+      this.UserController.updateUser
+    );
+
+    this.router.put(
+      '/profile/update',
+      userAuth,
       uploadToCloudinary,
       this.UserController.updateUser
     );
@@ -46,8 +53,8 @@ class UserRoutes {
     );
 
     //routes to update a single user
-    this.router.put('user/:_id', this.UserController.updateUser);
-    this.router.patch('user/:_id', this.UserController.updateUser);
+    this.router.put('user/:_id', userAuth, this.UserController.updateUser);
+    this.router.patch('user/:_id', userAuth, this.UserController.updateUser);
 
     //send otp to email
     this.router.post('/password/reset', this.UserController.sendOTPEmail);

@@ -1,6 +1,4 @@
-export const getEventsByDate = (date) => {
-  const Billboard;
-};
+export const getEventsByDate = (date) => {};
 
 export const getEventsbyOrganizer = () => {};
 
