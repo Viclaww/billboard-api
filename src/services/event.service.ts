@@ -1,8 +1,14 @@
 import { IEvent } from '../interfaces/event.interface';
 import Event from '../models/events.model';
+import { createEventSlug, getEventBySlugUtil } from '../utils/event.util';
+
 class EventService {
   public createNewEvents = async (body: IEvent): Promise<IEvent> => {
-    const data = await Event.create(body);
+    const slug = createEventSlug(body.eventName);
+    const data = await Event.create({
+      ...body,
+      slug
+    });
     return data;
   };
 
@@ -23,6 +29,10 @@ class EventService {
   public getEventIdByName = async (eventName: string): Promise<string> => {
     const data = await Event.findOne({ eventName });
     return data._id;
+  };
+  public getEventsSlug = async (slug: string) => {
+    const data = getEventBySlugUtil(slug);
+    return data;
   };
 }
 

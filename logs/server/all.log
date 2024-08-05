@@ -1932,3 +1932,34 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-08-02T2
 error: Could not connect to the database. querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ESERVFAIL","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-08-02T20:47:50.909Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-08-02T20:49:51.474Z"}
 error: Could not connect to the database. querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net {"code":"ESERVFAIL","hostname":"_mongodb._tcp.cluster0.tgmlkb5.mongodb.net","stack":"Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.tgmlkb5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2024-08-02T20:49:51.811Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-08-02T20:57:21.042Z"}
+info: Connected to the database. {"timestamp":"2024-08-02T20:57:27.754Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-08-02T21:07:19.547Z"}
+info: Connected to the database. {"timestamp":"2024-08-02T21:07:25.292Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-08-02T21:08:07.906Z"}
+info: Connected to the database. {"timestamp":"2024-08-02T21:08:33.654Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:20:50
+    at Generator.next (<anonymous>)
+    at C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\PC\documents\billboard-api\src\middlewares\auth.middleware.ts:18:20)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\PC\documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/auth/all 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-02T21:17:53.712Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-08-02T21:18:18.568Z"}
+info: Connected to the database. {"timestamp":"2024-08-02T21:18:25.590Z"}

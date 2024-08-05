@@ -1,10 +1,11 @@
 import { Date, Document } from 'mongoose';
 
 export interface IEvent extends Document {
-  organizer: string;
+  host: string;
   eventName: string;
   eventDate: Date;
   eventTime: string;
   eventLocation: string;
   eventFlier: string;
+  slug: string;
 }

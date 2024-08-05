@@ -67,7 +67,7 @@ class UserRoutes {
 
     //route to delete a single user
     this.router.delete('/:_id', this.UserController.deleteUser);
-
+``
     // route for google login
     this.router.get('/google-signup', this.UserController.signUpWithGoogle);
     this.router.get('/google/callback', this.UserController.googleCallback);

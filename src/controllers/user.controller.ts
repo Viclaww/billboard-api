@@ -231,7 +231,10 @@ class UserController {
     try {
       // sending otp to user email
       const { email } = req.body;
+      console.log('got her');
       const user = await this.UserService.getUserByEmail(email);
+      console.log(user);
+
       if (!user) {
         return res.status(HttpStatus.NOT_FOUND).json({
           code: HttpStatus.NOT_FOUND,

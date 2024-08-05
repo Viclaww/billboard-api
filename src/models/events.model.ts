@@ -2,7 +2,7 @@ import { model, Schema } from 'mongoose';
 import { IEvent } from '../interfaces/event.interface';
 
 const eventModel = new Schema({
-  organizer: {
+  host: {
     type: String,
     required: true
   },
@@ -21,6 +21,7 @@ const eventModel = new Schema({
   eventLocation: {
     type: String || Object
   },
+  slug: String,
   eventFlier: {
     type: String,
     required: true

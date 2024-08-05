@@ -652,3 +652,13 @@ info: ::1 - - [16/Jul/2024:13:34:23 +0000] "GET /api/v1/billboards/6691b6ee7e12c
 
 info: ::1 - - [16/Jul/2024:13:35:25 +0000] "GET /api/v1/billboards/6691b6ee7e12c21b20205adf HTTP/1.1" 200 434 "-" "PostmanRuntime/7.39.1"
 
+info: ::1 - - [02/Aug/2024:21:17:26 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2024:21:17:31 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2024:21:17:43 +0000] "GET /api/v1/all HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2024:21:17:53 +0000] "GET /api/v1/auth/all HTTP/1.1" 500 88 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Aug/2024:21:18:26 +0000] "GET /api/v1/auth/all HTTP/1.1" 200 2978 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+

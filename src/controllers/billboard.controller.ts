@@ -102,10 +102,14 @@ class BillboardController {
   ): Promise<Response> => {
     try {
       let ownerId;
+
       let bearerToken = req.header('Authorization').split(' ')[1].trim();
-      const decodedToken = jwt.decode(bearerToken) as { email: string }; // decoding the bearer token
-      ownerId = (await this.userService.getUserByEmail(decodedToken.email))._id; // getting the owners Id
-      const image = req.fileUrl;
+
+      const user = await this.userService.getUserbyBearerToken(bearerToken);
+
+      ownerId = user.id; // getting the owners Id
+
+      const image = req.fileUrl; // getting image from the request
       const billboard = await this.billboardService.newBillboard({
         ...req.body,
         image,
