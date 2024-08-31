@@ -31,6 +31,27 @@ class BillboardController {
     }
   };
 
+  public getUsersBillboards = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const id = req.params.id;
+
+      const data = await this.billboardService.getBillboardByOwnerId(id);
+      if (data) {
+        return res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data,
+          message: 'Billboards Fectched Successfully'
+        });
+      }
+    } catch (error) {
+      next(error);
+    }
+  };
+
   public getABillboard = async (
     req: Request,
     res: Response,
@@ -40,11 +61,16 @@ class BillboardController {
       const id = req.params.id;
       const data = await this.billboardService.getSingleBillboardById(id);
       if (data) {
-        console.log(data);
-
+        const user = await this.userService.getUser(data.ownerId);
         return res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
-          data: data,
+          data: {
+            ...data,
+            owner: {
+              name: user.displayName,
+              id: user.id
+            }
+          },
           message: 'Billboard fetched Successful!'
         });
       } else {
@@ -53,7 +79,9 @@ class BillboardController {
           message: 'Billboard Not found'
         });
       }
-    } catch (error) {}
+    } catch (error) {
+      next(error);
+    }
   };
   /**
    * Controller to get all billboards

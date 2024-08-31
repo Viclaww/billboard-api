@@ -9,7 +9,7 @@ export const getBillboardByOwnerId = async (
 };
 
 export const getSingleBillboard = async (id: string) => {
-  const data = await Billboard.find({ _id: id });
+  const data = await Billboard.findOne({ _id: id });
   return data;
 };
 

@@ -32,6 +32,14 @@ class BillboardRoutes {
 
     // get a single billboard
     this.router.get('/:id', userAuth, this.billboardController.getABillboard);
+
+    // get a user's billboards
+
+    this.router.get(
+      '/user/:id',
+      userAuth,
+      this.billboardController.getUsersBillboards
+    );
   };
   public getRoutes = (): IRouter => {
     return this.router;

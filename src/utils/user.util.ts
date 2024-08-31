@@ -22,6 +22,11 @@ export const returnFrontendUserInfo = (data) => {
   };
 };
 
+// this function checks if it is a valid email
+export const validateEmail = (email: string): boolean => {
+  let re = /\S+@\S+\.\S+/;
+  return re.test(email);
+};
 // compare password in utils
 export const comparePasswordUtil = async (pass1, pass2) => {
   let correct = await verify(pass1, pass2);

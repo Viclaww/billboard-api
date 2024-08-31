@@ -9,6 +9,7 @@ import helmet from 'helmet';
 import session from 'express-session';
 import passport from 'passport';
 import './config/GooglePassport';
+import swaggerUi from 'swagger-ui-express';
 
 import routes from './routes';
 import Database from './config/database';
@@ -65,6 +66,15 @@ class App {
   }
 
   public initializeRoutes(): void {
+    this.app.use(
+      '/api-docs',
+      swaggerUi.serve,
+      swaggerUi.setup(undefined, {
+        swaggerOptions: {
+          url: '/swagger.json'
+        }
+      })
+    );
     this.app.use(`/api/${this.api_version}`, routes());
   }
 
