@@ -2159,3 +2159,28 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-09-25T20:57:15.833Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-09-25T20:58:13.577Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T20:58:17.057Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at C:\Users\vicla\Documents\billboard-api\src\middlewares\auth.middleware.ts:24:50
+    at Generator.next (<anonymous>)
+    at C:\Users\vicla\Documents\billboard-api\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\vicla\Documents\billboard-api\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\vicla\Documents\billboard-api\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/advertisements 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-09-25T21:00:09.767Z"}

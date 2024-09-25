@@ -808,3 +808,5 @@ info: ::1 - - [25/Sep/2024:21:01:21 +0000] "GET /api/v1/advertisements HTTP/1.1"
 
 info: ::1 - - [25/Sep/2024:21:02:00 +0000] "GET /api/v1/advertisements HTTP/1.1" 200 1475 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [25/Sep/2024:21:03:35 +0000] "GET /api/v1/advertisements/66f479a1a5d8ce4390bb925d HTTP/1.1" 200 454 "-" "PostmanRuntime/7.42.0"
+
