@@ -2,9 +2,14 @@ import { NextFunction, Request, Response } from 'express';
 import BillboardService from '../services/billlboard.service';
 import UserService from '../services/user.service';
 import HttpStatus from 'http-status-codes';
+import AdsService from '../services/ads.service';
+import ChatService from '../services/chat.service';
+import { AuthenticatedRequest } from '../middlewares/auth.middleware';
 class PagesController {
   public billboardService = new BillboardService();
   public userService = new UserService();
+  public adsService = new AdsService();
+  public chatService = new ChatService();
 
   /**
    * Controller to get all data for the Home screen
@@ -41,7 +46,7 @@ class PagesController {
    * @param {Function} NextFunction
    */
 
-  public Marketplace = async (
+  public marketplace = async (
     req: Request,
     res: Response,
     next: NextFunction
@@ -58,6 +63,65 @@ class PagesController {
         },
         message: 'Data fetched successfully'
       });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public community = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const ads = await this.adsService.getAllAds();
+      const groups = await this.chatService.getForums();
+
+      return res.status(HttpStatus.OK).json({
+        advertisements: ads,
+        groups
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public getAllAds = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const ads = await this.adsService.getAllAds();
+      return res.status(HttpStatus.OK).json({ ads });
+    } catch (error) {
+      next(error);
+    }
+  };
+  public getAnAd = async (
+    req: AuthenticatedRequest,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const ad = await this.adsService.getSingleAd(req.params.id);
+      return res.status(HttpStatus.OK).json({ ad });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public createAd = async (
+    req: AuthenticatedRequest,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      console.log(req.user);
+      const ad = await this.adsService.createAd({
+        ...req.body,
+        author: await this.userService.getUserByEmail(req.user.email)
+      });
+      return res.status(HttpStatus.OK).json({ ad });
     } catch (error) {
       next(error);
     }

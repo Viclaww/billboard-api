@@ -1489,3 +1489,79 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-08-31T11:52:48.707Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as get] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:521:19)
+    at PagesRoutes.routes (C:\Users\vicla\Documents\billboard-api\src\routes\pages.routes.ts:21:17)
+    at new PagesRoutes (C:\Users\vicla\Documents\billboard-api\src\routes\pages.routes.ts:10:10)
+    at routes (C:\Users\vicla\Documents\billboard-api\src\routes\index.ts:31:19)
+    at App.initializeRoutes (C:\Users\vicla\Documents\billboard-api\src\index.ts:121:52)
+    at new App (C:\Users\vicla\Documents\billboard-api\src\index.ts:49:10)
+    at Object.<anonymous> (C:\Users\vicla\Documents\billboard-api\src\index.ts:144:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._compile (C:\Users\vicla\Documents\billboard-api\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6831096753441113.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6831096753441113.js:114:20)
+    at require.extensions.<computed> (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6831096753441113.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\vicla\Documents\billboard-api\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1208:32) {"date":"Wed Sep 25 2024 21:41:38 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":70838.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\vicla\\Documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18452804,"external":20641730,"heapTotal":61284352,"heapUsed":37912480,"rss":91209728},"pid":17544,"uid":null,"version":"v20.16.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at PagesRoutes.routes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\pages.routes.ts:21:17)\n    at new PagesRoutes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\pages.routes.ts:10:10)\n    at routes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\index.ts:31:19)\n    at App.initializeRoutes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:121:52)\n    at new App (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:49:10)\n    at Object.<anonymous> (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:144:13)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._compile (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6831096753441113.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6831096753441113.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6831096753441113.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","timestamp":"2024-09-25T20:41:38.208Z","trace":[{"column":15,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":17,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\pages.routes.ts","function":"PagesRoutes.routes","line":21,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\pages.routes.ts","function":"new PagesRoutes","line":10,"method":null,"native":false},{"column":19,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\index.ts","function":"routes","line":31,"method":null,"native":false},{"column":52,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":"App.initializeRoutes","line":121,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":"new App","line":49,"method":null,"native":false},{"column":13,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":null,"line":144,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6831096753441113.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":20,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6831096753441113.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6831096753441113.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at PagesController.<anonymous> (C:\Users\vicla\Documents\billboard-api\src\controllers\pages.controller.ts:121:26)
+    at Generator.next (<anonymous>)
+    at C:\Users\vicla\Documents\billboard-api\src\controllers\pages.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\vicla\Documents\billboard-api\src\controllers\pages.controller.ts:4:12)
+    at PagesController.createAd (C:\Users\vicla\Documents\billboard-api\src\controllers\pages.controller.ts:117:7)
+    at Layer.handle [as handle_request] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/advertisements 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-25T20:50:02.601Z"}
+error: 
+    status - 500 
+    message - ValidationError: AdsModel validation failed: author: Cast to Embedded failed for value "billboard@test.com" (type string) at path "author"
+    at model.Document.invalidate (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:2788:32)
+    at model.$set (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:1361:12)
+    at model.$set (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:1062:16)
+    at model.Document (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\model.js:4919:15)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\model.js:3165:22
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\model.js:3201:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\model.js:3200:15
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\model.js:3135:23)
+    at AdsService.<anonymous> (C:\Users\vicla\Documents\billboard-api\src\services\ads.service.ts:13:31) 
+    url - /api/v1/advertisements 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-25T20:55:39.907Z"}
+error: 
+    status - 500 
+    message - ValidationError: AdsModel validation failed: author.field: `State agent` is not a valid enum value for path `field`., author: Validation failed: field: `State agent` is not a valid enum value for path `field`.
+    at model.Document.invalidate (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:2788:32)
+    at SingleNested.Subdocument.invalidate (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\types\subdocument.js:177:20)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/advertisements 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-25T20:57:15.833Z"}

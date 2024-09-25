@@ -770,3 +770,41 @@ info: ::1 - - [31/Aug/2024:11:53:49 +0000] "POST /api/v1/billboards/new HTTP/1.1
 
 info: ::1 - - [31/Aug/2024:11:55:38 +0000] "GET /api/v1/billboards/user/668e43172d46c129882143f4 HTTP/1.1" 200 808 "-" "PostmanRuntime/7.39.1"
 
+info: ::1 - - [25/Sep/2024:20:31:12 +0000] "GET /api/v1/home HTTP/1.1" 200 2937 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:34:08 +0000] "GET /api/v1/marketplace HTTP/1.1" 200 2942 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:42:21 +0000] "GET /api/v1/community HTTP/1.1" 200 33 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:43:17 +0000] "GET /api/v1/advertisements HTTP/1.1" 200 10 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:43:47 +0000] "GET /api/v1/community HTTP/1.1" 200 33 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:50:02 +0000] "POST /api/v1/advertisements HTTP/1.1" 500 86 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:51:29 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 470 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:51:59 +0000] "POST /api/v1/advertisements HTTP/1.1" 200 127 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:53:10 +0000] "POST /api/v1/advertisements HTTP/1.1" 200 127 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:53:35 +0000] "POST /api/v1/advertisements HTTP/1.1" 200 127 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:54:21 +0000] "POST /api/v1/advertisements HTTP/1.1" 200 127 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:55:05 +0000] "POST /api/v1/advertisements HTTP/1.1" 200 127 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:55:39 +0000] "POST /api/v1/advertisements HTTP/1.1" 500 160 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:57:15 +0000] "POST /api/v1/advertisements HTTP/1.1" 500 227 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:58:17 +0000] "POST /api/v1/advertisements HTTP/1.1" 200 419 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:20:59:13 +0000] "POST /api/v1/advertisements HTTP/1.1" 200 454 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:21:00:09 +0000] "GET /api/v1/advertisements HTTP/1.1" 500 88 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:21:01:21 +0000] "GET /api/v1/advertisements HTTP/1.1" 401 43 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:21:02:00 +0000] "GET /api/v1/advertisements HTTP/1.1" 200 1475 "-" "PostmanRuntime/7.42.0"
+

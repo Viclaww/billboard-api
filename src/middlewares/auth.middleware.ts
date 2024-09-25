@@ -3,16 +3,20 @@ import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import { Request, Response, NextFunction } from 'express';
 
+export interface AuthenticatedRequest extends Request {
+  user?: any;
+}
+
 /**
  * Middleware to authenticate if user has a valid Authorization token
  * Authorization: Bearer <token>
  *
  * @param {Object} req
- * @param {Object} res
+  req: AuthenticatedRequest,ct} res
  * @param {Function} next
  */
 export const userAuth = async (
-  req: Request,
+  req: AuthenticatedRequest,
   res: Response,
   next: NextFunction
 ): Promise<void> => {
@@ -33,6 +37,7 @@ export const userAuth = async (
               message: 'Not authorized or wrong token'
             });
           } else {
+            req.user = decodedToken;
             next();
           }
         }

@@ -2,6 +2,9 @@ import express, { IRouter } from 'express';
 import userRoute from './user.route';
 import uploadToCloudinary from '../config/multer';
 import BillboardRoutes from './billboard.route';
+import PagesRoutes from './pages.routes';
+import ChatRoutes from './chat.route';
+import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 /**
@@ -25,8 +28,9 @@ const routes = (): IRouter => {
   // });
 
   router.use('/auth', new userRoute().getRoutes());
-  router.use('/billboards', new BillboardRoutes().getRoutes());
-
+  router.use('/billboards', userAuth, new BillboardRoutes().getRoutes());
+  router.use('/', userAuth, new PagesRoutes().getRoutes());
+  router.use('/', new ChatRoutes().getRoutes());
   return router;
 };
 

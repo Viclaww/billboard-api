@@ -27,6 +27,10 @@ const userSchema = new Schema(
         'Billboard Owner',
         'Advertising Agent',
         'State Agent',
+        'Business Owner',
+        'billboard 0wner',
+        'Advertising Agent',
+        'State agent',
         'Business Owner'
       ]
     },
