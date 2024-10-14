@@ -29,7 +29,7 @@ const routes = (): IRouter => {
 
   router.use('/auth', new userRoute().getRoutes());
   router.use('/billboards', userAuth, new BillboardRoutes().getRoutes());
-  router.use('/', userAuth, new PagesRoutes().getRoutes());
+  router.use('/page', userAuth, new PagesRoutes().getRoutes());
   router.use('/', new ChatRoutes().getRoutes());
   return router;
 };
