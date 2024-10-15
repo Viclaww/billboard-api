@@ -68,7 +68,8 @@ class BillboardController {
             ...data,
             owner: {
               name: user.displayName,
-              id: user.id
+              id: user.id,
+              profileImage: user.image
             }
           },
           message: 'Billboard fetched Successful!'
