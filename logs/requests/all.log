@@ -810,3 +810,43 @@ info: ::1 - - [25/Sep/2024:21:02:00 +0000] "GET /api/v1/advertisements HTTP/1.1"
 
 info: ::1 - - [25/Sep/2024:21:03:35 +0000] "GET /api/v1/advertisements/66f479a1a5d8ce4390bb925d HTTP/1.1" 200 454 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [16/Oct/2024:14:31:36 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:35:27 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:43:50 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:52:53 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 131 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:53:37 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 131 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:54:49 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 163 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:55:22 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 159 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:57:48 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 159 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:14:59:07 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 161 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:00:48 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 106 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:02:16 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 106 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:02:48 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:04:57 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 161 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:06:32 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 500 157 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:09:15 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:11:03 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:11:37 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:15:20 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:17:08 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:15:24:06 +0000] "POST /api/v1/auth/password/reset HTTP/1.1" 202 48 "-" "PostmanRuntime/7.39.1"
+

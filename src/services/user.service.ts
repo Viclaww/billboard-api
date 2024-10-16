@@ -8,6 +8,10 @@ import {
 } from '../utils/user.util';
 import jwt from 'jsonwebtoken';
 import { hash } from 'argon2';
+import { otpMail } from './html/otpmail';
+import path from 'path';
+import { promisify } from 'util';
+import fs from 'fs';
 
 class UserService {
   //get all users
@@ -71,7 +75,19 @@ class UserService {
       from: '"Lawrence from billboard" victor@demomailtrap.com',
       to: `${email}`,
       subject: 'OTP for password reset',
-      html: `<p>Your OTP for password reset is <strong>${otp}</strong></p>`
+      html: otpMail(otp),
+      attachments: [
+        {
+          filename: 'logo.png',
+          path: path.join(__dirname, '/html/logo.png'),
+          cid: 'billboardlogo' //same cid value as in the html img src
+        },
+        {
+          filename: 'postbox.png',
+          path: path.join(__dirname, '/html/mail.png'),
+          cid: 'postbox' //same cid value as in the html img src
+        }
+      ]
     };
     return mailOptions;
   };

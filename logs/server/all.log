@@ -2184,3 +2184,179 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2024-09-25T21:00:09.767Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:29:41.253Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:29:45.521Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:30:05.758Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:30:07.668Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:35:19.489Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:35:21.676Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:42:53.997Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:42:56.306Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:43:24.276Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:43:26.350Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:48:48.148Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:48:50.539Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:49:40.292Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:49:42.368Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:50:10.148Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:50:12.891Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:51:58.645Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:52:00.824Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\utils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T14:52:53.955Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\utils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T14:53:37.515Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:54:12.941Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:54:15.139Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:54:24.168Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:54:26.002Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\billboard-api\src\services..\utils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T14:54:49.399Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:55:12.911Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:55:14.717Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\billboard-api\src\servicesutils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T14:55:22.680Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:57:42.626Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:57:44.648Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\billboard-api\src\servicesutils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T14:57:48.255Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T14:59:01.440Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T14:59:03.529Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\billboard-api\src\services\utils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T14:59:07.663Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:00:28.796Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:00:30.982Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected non-whitespace character after JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\vicla\Documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\vicla\Documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\vicla\Documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\vicla\Documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:00:31.475Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\utils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:00:48.742Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:01:43.340Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:01:45.412Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:02:08.230Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:02:10.717Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\utils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:02:16.773Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:02:42.959Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:02:44.904Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:03:53.663Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:03:55.942Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:04:11.745Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:04:13.487Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:04:24.284Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:04:26.174Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:04:49.048Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:04:51.280Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\billboard-api\src\services\utils\html\billlogo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:04:57.087Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:06:23.884Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:06:26.022Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\vicla\Documents\billboard-api\src\services\utils\html\logo.png' 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:06:32.496Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:08:53.487Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:08:55.566Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected non-whitespace character after JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\vicla\Documents\billboard-api\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\vicla\Documents\billboard-api\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\vicla\Documents\billboard-api\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\vicla\Documents\billboard-api\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/auth/password/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T15:09:01.982Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:10:27.358Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:10:29.494Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:13:57.737Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:13:59.768Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:14:39.584Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:14:42.951Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:14:49.408Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:14:51.277Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:15:00.176Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:15:02.126Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:16:26.639Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:16:28.607Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:16:43.833Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:16:45.819Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:16:53.218Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:16:55.209Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:17:02.274Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:17:04.530Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:18:33.333Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:18:35.472Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:19:11.199Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:19:13.104Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:23:56.687Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:23:58.877Z"}
