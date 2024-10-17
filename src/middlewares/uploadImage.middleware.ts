@@ -10,6 +10,10 @@ export const uploadToCloudinary = (
 ) => {
   console.log(req.file);
 
+  if (!req.file) {
+    next();
+  }
+
   upload.single('file')(req, res, (err: any) => {
     if (err) {
       // Handle multer error

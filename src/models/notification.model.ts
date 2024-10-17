@@ -4,6 +4,7 @@ import { INotification } from '../interfaces/notifaction.interface';
 const notificationSchema = new Schema(
   {
     type: String,
+    title: String,
     message: String,
     read: Boolean
   },

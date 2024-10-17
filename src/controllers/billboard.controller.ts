@@ -138,10 +138,10 @@ class BillboardController {
 
       ownerId = user.id; // getting the owners Id
 
-      const image = req.fileUrl; // getting image from the request
+      // const image = req.fileUrl; // getting image from the request
       const billboard = await this.billboardService.newBillboard({
         ...req.body,
-        image,
+        //    image,
         ownerId,
         available: true
       });
