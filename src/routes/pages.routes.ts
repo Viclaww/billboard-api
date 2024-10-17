@@ -1,5 +1,6 @@
 import PagesController from '../controllers/pages.controller';
 import express, { IRouter } from 'express';
+import { uploadToCloudinary } from '../middlewares/uploadImage.middleware';
 
 class PagesRoutes {
   public PagesController = new PagesController();
@@ -16,7 +17,11 @@ class PagesRoutes {
     this.router.get('/marketplace', this.PagesController.marketplace);
     this.router.get('/community', this.PagesController.community);
 
-    this.router.post('/advertisements', this.PagesController.createAd);
+    this.router.post(
+      '/advertisements',
+      uploadToCloudinary,
+      this.PagesController.createAd
+    );
 
     this.router.get('/advertisements/:id', this.PagesController.getAnAd);
     this.router.get('/advertisements', this.PagesController.getAllAds);

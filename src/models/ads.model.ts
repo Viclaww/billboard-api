@@ -6,7 +6,12 @@ const adsSchema = new Schema(
   {
     image: String,
     message: String,
-    author: userModel.schema
+    author: {
+      email: String,
+      name: String,
+      id: String,
+      image: String
+    }
   },
   { timestamps: true }
 );

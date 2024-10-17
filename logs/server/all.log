@@ -2360,3 +2360,158 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T1
 info: Connected to the database. {"timestamp":"2024-10-16T15:19:13.104Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:23:56.687Z"}
 info: Connected to the database. {"timestamp":"2024-10-16T15:23:58.877Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-16T15:27:18.439Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T15:27:20.864Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T09:27:33.713Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T09:27:36.033Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:09:19.405Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:09:21.926Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:12:48.231Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:12:50.382Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:14:15.530Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:14:17.795Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:15:36.755Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:15:39.326Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:15:49.507Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:15:51.210Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:17:12.274Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:17:14.307Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:18:43.335Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:18:45.345Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:19:36.693Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:19:38.564Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:23:29.970Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:23:32.007Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:23:43.214Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:23:45.918Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:28:31.494Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:28:33.440Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:28:46.984Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:28:48.899Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:30:01.806Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:30:03.750Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:32:03.017Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:32:05.019Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:34:14.144Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:34:16.237Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:36:10.269Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:36:12.475Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:38:03.849Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:38:06.061Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:38:52.219Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:38:53.973Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:39:28.354Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:39:30.145Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:40:45.930Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:40:48.908Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:41:09.166Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:41:11.085Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:41:38.782Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:41:40.589Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:42:45.072Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:42:47.106Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:43:20.014Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:43:21.693Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:44:01.666Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:44:03.959Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:44:10.162Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:44:11.756Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:44:33.814Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:44:35.415Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:45:28.061Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:45:29.924Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:46:50.789Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:46:52.917Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:47:54.559Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:47:56.644Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:48:09.354Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:48:11.034Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:50:14.354Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:50:16.414Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:50:41.957Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:50:43.939Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:52:39.198Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:52:41.142Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:54:51.171Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:54:53.108Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:55:42.039Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:55:43.737Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:57:11.092Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:57:13.021Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:57:24.006Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:57:25.691Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:58:27.490Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:58:29.404Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:58:37.185Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:58:38.939Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T10:59:08.332Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T10:59:10.059Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:20:41.532Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:20:44.185Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:22:16.485Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:22:18.374Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:22:46.413Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:22:48.146Z"}
+error: 
+    status - 500 
+    message - ValidationError: AdsModel validation failed: author.password: Path `password` is required., author: Validation failed: password: Path `password` is required.
+    at model.Document.invalidate (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:2788:32)
+    at SingleNested.Subdocument.invalidate (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\types\subdocument.js:177:20)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/page/advertisements 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T11:26:32.724Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:27:42.284Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:27:44.247Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:30:56.203Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:30:58.319Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\vicla\Documents\billboard-api\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\vicla\Documents\billboard-api\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at HeaderParser.cb (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\vicla\Documents\billboard-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\vicla\Documents\billboard-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Multipart.Writable.write (node:internal/streams/writable:508:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1007:22)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.Readable.read (node:internal/streams/readable:780:10)
+    at flow (node:internal/streams/readable:1281:53) 
+    url - /api/v1/page/advertisements 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T11:31:02.649Z"}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as put] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (C:\Users\vicla\Documents\billboard-api\src\routes\user.route.ts:41:17)
+    at new UserRoutes (C:\Users\vicla\Documents\billboard-api\src\routes\user.route.ts:12:10)
+    at routes (C:\Users\vicla\Documents\billboard-api\src\routes\index.ts:30:23)
+    at App.initializeRoutes (C:\Users\vicla\Documents\billboard-api\src\index.ts:121:52)
+    at new App (C:\Users\vicla\Documents\billboard-api\src\index.ts:49:10)
+    at Object.<anonymous> (C:\Users\vicla\Documents\billboard-api\src\index.ts:144:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._compile (C:\Users\vicla\Documents\billboard-api\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6115237320583589.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6115237320583589.js:114:20)
+    at require.extensions.<computed> (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6115237320583589.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\vicla\Documents\billboard-api\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1208:32) {"date":"Thu Oct 17 2024 12:33:23 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5692.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\vicla\\Documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18450089,"external":20638637,"heapTotal":61284352,"heapUsed":37545520,"rss":94466048},"pid":9532,"uid":null,"version":"v20.16.0"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as put] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts:41:17)\n    at new UserRoutes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts:12:10)\n    at routes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\index.ts:30:23)\n    at App.initializeRoutes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:121:52)\n    at new App (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:49:10)\n    at Object.<anonymous> (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:144:13)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._compile (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","timestamp":"2024-10-17T11:33:23.619Z","trace":[{"column":15,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":216,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as put]","line":521,"method":"<computed> [as put]","native":false},{"column":17,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":41,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":23,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\index.ts","function":"routes","line":30,"method":null,"native":false},{"column":52,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":"App.initializeRoutes","line":121,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":"new App","line":49,"method":null,"native":false},{"column":13,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":null,"line":144,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":20,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:33:41.279Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:33:43.116Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:34:12.182Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:34:13.803Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2024-10-17T11:34:21.859Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T11:34:23.705Z"}

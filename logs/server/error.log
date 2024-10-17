@@ -1692,3 +1692,56 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-10-16T15:09:01.982Z"}
+error: 
+    status - 500 
+    message - ValidationError: AdsModel validation failed: author.password: Path `password` is required., author: Validation failed: password: Path `password` is required.
+    at model.Document.invalidate (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:2788:32)
+    at SingleNested.Subdocument.invalidate (C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\types\subdocument.js:177:20)
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\vicla\Documents\billboard-api\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/page/advertisements 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T11:26:32.724Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\vicla\Documents\billboard-api\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\vicla\Documents\billboard-api\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at HeaderParser.cb (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\vicla\Documents\billboard-api\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\vicla\Documents\billboard-api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\vicla\Documents\billboard-api\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Multipart.Writable.write (node:internal/streams/writable:508:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1007:22)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.Readable.read (node:internal/streams/readable:780:10)
+    at flow (node:internal/streams/readable:1281:53) 
+    url - /api/v1/page/advertisements 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T11:31:02.649Z"}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as put] (C:\Users\vicla\Documents\billboard-api\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (C:\Users\vicla\Documents\billboard-api\src\routes\user.route.ts:41:17)
+    at new UserRoutes (C:\Users\vicla\Documents\billboard-api\src\routes\user.route.ts:12:10)
+    at routes (C:\Users\vicla\Documents\billboard-api\src\routes\index.ts:30:23)
+    at App.initializeRoutes (C:\Users\vicla\Documents\billboard-api\src\index.ts:121:52)
+    at new App (C:\Users\vicla\Documents\billboard-api\src\index.ts:49:10)
+    at Object.<anonymous> (C:\Users\vicla\Documents\billboard-api\src\index.ts:144:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._compile (C:\Users\vicla\Documents\billboard-api\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6115237320583589.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6115237320583589.js:114:20)
+    at require.extensions.<computed> (C:\Users\vicla\AppData\Local\Temp\ts-node-dev-hook-6115237320583589.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\vicla\Documents\billboard-api\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1208:32) {"date":"Thu Oct 17 2024 12:33:23 GMT+0100 (West Africa Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5692.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\vicla\\Documents\\billboard-api","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18450089,"external":20638637,"heapTotal":61284352,"heapUsed":37545520,"rss":94466048},"pid":9532,"uid":null,"version":"v20.16.0"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as put] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts:41:17)\n    at new UserRoutes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts:12:10)\n    at routes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\index.ts:30:23)\n    at App.initializeRoutes (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:121:52)\n    at new App (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:49:10)\n    at Object.<anonymous> (C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts:144:13)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._compile (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","timestamp":"2024-10-17T11:33:23.619Z","trace":[{"column":15,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":216,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as put]","line":521,"method":"<computed> [as put]","native":false},{"column":17,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":41,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":23,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\routes\\index.ts","function":"routes","line":30,"method":null,"native":false},{"column":52,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":"App.initializeRoutes","line":121,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":"new App","line":49,"method":null,"native":false},{"column":13,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\src\\index.ts","function":null,"line":144,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":20,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\vicla\\AppData\\Local\\Temp\\ts-node-dev-hook-6115237320583589.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Users\\vicla\\Documents\\billboard-api\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
