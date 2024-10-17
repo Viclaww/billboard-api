@@ -116,16 +116,15 @@ class PagesController {
     next: NextFunction
   ) => {
     try {
+      const user = await this.userService.getUserByEmail(req.user.email);
       const ad = await this.adsService.createAd({
         ...req.body,
         image: req.fileUrl,
         author: {
-          email: (await this.userService.getUserByEmail(req.user.email)).email,
-          name: (
-            await this.userService.getUserByEmail(req.user.email)
-          ).displayName,
-          id: (await this.userService.getUserByEmail(req.user.email)).id,
-          image: (await this.userService.getUserByEmail(req.user.email)).image
+          email: user.email,
+          name: user.fullName,
+          id: user.id,
+          image: user.image
         }
       });
       return res.status(HttpStatus.OK).json({ ad });
